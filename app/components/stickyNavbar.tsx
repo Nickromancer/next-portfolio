@@ -17,13 +17,13 @@ export default function StickyNavbar() {
         <div>
           <Avatar></Avatar>
         </div>
-      </div>
-      <div className=" flex text-orange gap-5 absolute bottom-5 xl:text-2xl lg:text-lg left-24">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#research">Research</a>
-        <a href="#contact">Contact</a>
+        <div className=" flex text-orange gap-5 xl:text-2xl lg:text-lg ">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </>
   );

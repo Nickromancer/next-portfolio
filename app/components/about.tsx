@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="text-white" id="about">
+      <div className="text-white pt-6" id="about">
         <h1 className=" text-3xl mb-5">About me</h1>
         <p>
           Bilged on her anchor quarter gunwalls jib long boat log red ensign

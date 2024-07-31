@@ -15,6 +15,9 @@ const config: Config = {
         beige: "#ECCEAE",
         white: "#FBF6E2",
       },
+      transitionProperty: {
+        height: "height",
+      },
       dropShadow: {
         profile: "16px 16px 2px rgba(0, 0, 0, 0.5)",
       },
