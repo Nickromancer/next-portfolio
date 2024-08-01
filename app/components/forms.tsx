@@ -1,83 +1,52 @@
 "use client";
-import { useRef } from "react";
+
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const Contact = () => {
-  const emailRef = useRef<HTMLInputElement>(null);
-  const subjectRef = useRef<HTMLInputElement>(null);
-  const nameRef = useRef<HTMLInputElement>(null);
-  const messageRef = useRef<HTMLTextAreaElement>(null);
-  console.log(process.env.NEXT_PUBLIC_PUBLIC_KEY!);
-  const sendMessage = (e: React.FormEvent<HTMLFormElement>) => {
+export const ContactUs = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+  console.log(process.env.NEXT_PUBLIC_PUBLIC_KEY);
+
+  const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    const templateParams = {
-      name: nameRef.current?.value || "",
-      email: emailRef.current?.value || "",
-      subject: subjectRef.current?.value || "",
-      message: messageRef.current?.value || "",
-    };
+
     emailjs
-      .send(
+      .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID!,
         process.env.NEXT_PUBLIC_TEMPLATE_ID!,
-        templateParams,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
+        form.current!,
+        {
+          publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+        }
       )
       .then(
-        function (response: any) {
-          console.log("SUCCESS!", response.status, response.text);
-          alert("Thanks, message sent successfully");
+        () => {
+          console.log("SUCCESS!");
         },
-        function (error: any) {
-          alert("OOPs something went wrong... Try again later");
-          console.log("FAILED...", error);
+        (error) => {
+          console.log("FAILED...", error.text);
         }
       );
-    nameRef.current && (nameRef.current.value = "");
-    emailRef.current && (emailRef.current.value = "");
-    subjectRef.current && (subjectRef.current.value = "");
-    messageRef.current && (messageRef.current.value = "");
   };
+
   return (
-    <div id="contact">
-      <form onSubmit={sendMessage} action="">
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Enter Name"
-          ref={nameRef}
-          required
-        />
-        <input
-          type="text"
-          name="subject"
-          id="subject"
-          required
-          placeholder="Enter Subject"
-          ref={subjectRef}
-        />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          required
-          placeholder="Enter Email"
-          ref={emailRef}
-        />
-        <textarea
-          name="message"
-          id="message"
-          cols={25}
-          rows={7}
-          required
-          placeholder="Enter Message..."
-          ref={messageRef}
-        ></textarea>
-        <button type="submit">send message</button>
-      </form>
-    </div>
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
+      <label>Name</label>
+      <input className="text-black" type="text" name="user_name" required />
+      <label>Email</label>
+      <input className="text-black" type="email" name="user_email" required />
+      <label>Message</label>
+      <textarea className="text-black" name="message" required />
+      <button
+        className=" bg-white text-black w-auto
+         h-10"
+        type="submit"
+        value="Send"
+      >
+        Send!
+      </button>
+    </form>
   );
 };
 
-export default Contact;
+export default ContactUs;
