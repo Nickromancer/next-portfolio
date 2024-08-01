@@ -1,7 +1,6 @@
 "use client";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Button } from "@headlessui/react";
 
 const Contact = () => {
   const emailRef = useRef<HTMLInputElement>(null);
@@ -75,7 +74,7 @@ const Contact = () => {
           placeholder="Enter Message..."
           ref={messageRef}
         ></textarea>
-        <Button type="submit">send message</Button>
+        <button type="submit">send message</button>
       </form>
     </div>
   );
