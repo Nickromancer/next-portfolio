@@ -1,28 +1,34 @@
 export default function About() {
   return (
     <>
-      <div className="text-white pt-6" id="about">
-        <h1 className=" text-3xl mb-5">About me</h1>
+      <div className="text-white py-16" id="about">
+        <h1 className=" text-4xl mb-5 font-bold">Hello World! 👋🌍</h1>
         <p>
-          Bilged on her anchor quarter gunwalls jib long boat log red ensign
-          long clothes transom sloop. Bring a spring upon her cable hearties
-          Spanish Main gunwalls Gold Road lugger ahoy fluke Nelsons folly
-          provost.
-          <br />
-          <br />
-          Grapple aft come about me Buccaneer yo-ho-ho marooned sheet chandler
-          wench. Lugsail broadside coxswain matey hardtack reef sails booty
-          gangway transom hulk. Ye lanyard topgallant no prey, no pay black jack
-          lugsail pinnace jury mast parrel parley. Sink me Shiver me timbers
-          list belay ahoy skysail doubloon gangplank Sea Legs schooner. Heave
-          down sheet quarter Barbary Coast nipper Sail ho spike belay topmast
-          mutiny.
-          <br />
-          <br />
-          Yo-ho-ho transom run a rig parrel list crack Jennys tea cup draught
-          gangway walk the plank dance the hempen jig. Hands pillage Pirate
-          Round pink sheet bilged on her anchor no prey, no pay doubloon
-          crow&apos;s nest Arr.
+          I'm a 22-year-old currently studying for a MSc in Games Technology at
+          the IT-University of Copenhagen. When I'm not hitting the books at my
+          study, you can find me helping others as a Teaching Assistant in web
+          development or working as a barista in our local student-driven Café
+          Analog. 📖🧑‍🏫☕
+          <br /> <br />I have a degree in Software Development where I wrote my
+          bachelor focusing on Computaional Storage, which essentaily improves
+          performance by doing data operations directly where the data resides.
+          💻📅⚡
+          <br /> <br />
+          As a Software Developer, I've 'developed' <em>(pun intended) </em>
+          strong communication and social skills which have benefitted me
+          tremoundelsy in projects with developers and when communicating with
+          stakeholders and product owners. I have a natural affinity for
+          understanding the greater context of projects, and use that to drive
+          up my enthusiasm and intrinsic motivation. I thrive in teamwork where
+          I can exercise a balance of optimism and critical thinking while
+          learning from my coworkers. 🧑‍🤝‍🧑💭🧑‍💻
+          <br /> <br />
+          As for hobbies I'm heavily invested in video games and their
+          technological aspects, be it the sophisticated AI used or how game
+          engines are created. I like to participate in game jams where I can
+          hone my creativity when coding in a team of passionate people in the
+          quest of creating a mininmum viable product in the form of a
+          experimental game. 👾🕹️📜
         </p>
       </div>
     </>

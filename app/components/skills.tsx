@@ -26,8 +26,8 @@ import { SiPostman } from "react-icons/si";
 export default function Skills() {
   return (
     <>
-      <div className="text-white" id="skills">
-        <h1 className=" text-3xl mb-4">Skills</h1>
+      <div className="text-white py-16" id="skills">
+        <h1 className=" text-3xl mb-4 font-bold">Skills</h1>
         <div>
           <h1 className="text-xl mb-2">Frontend</h1>
           <div className="text-black rounded-md flex flex-wrap gap-4  ">

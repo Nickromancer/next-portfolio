@@ -4,7 +4,7 @@ import Profile from "@/public/Profile-removebg-preview.png";
 export default function Avatar() {
   return (
     <>
-      <div className="bg-orange rounded-full inline-block overflow-auto">
+      <div className="bg-orange rounded-full inline-block overflow-auto border-solid border-2 border-orange">
         <Image
           src={Profile}
           alt=""
