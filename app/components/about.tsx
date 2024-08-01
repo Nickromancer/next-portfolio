@@ -21,8 +21,8 @@ export default function About() {
           <br />
           Yo-ho-ho transom run a rig parrel list crack Jennys tea cup draught
           gangway walk the plank dance the hempen jig. Hands pillage Pirate
-          Round pink sheet bilged on her anchor no prey, no pay doubloon crow's
-          nest Arr.
+          Round pink sheet bilged on her anchor no prey, no pay doubloon
+          crow&apos;s nest Arr.
         </p>
       </div>
     </>
