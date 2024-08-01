@@ -31,15 +31,32 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
-      <label>Name</label>
-      <input className="text-black" type="text" name="user_name" required />
-      <label>Email</label>
-      <input className="text-black" type="email" name="user_email" required />
-      <label>Message</label>
-      <textarea className="text-black" name="message" required />
+      <label></label>
+      <input
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white focus:bg-[#0c0f2b] ease-in-out duration-100"
+        type="text"
+        name="user_name"
+        placeholder="Name"
+        required
+      />
+      <label></label>
+      <input
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white focus:bg-[#0c0f2b] ease-in-out duration-100  "
+        type="email"
+        name="user_email"
+        placeholder="Mail"
+        required
+      />
+      <label></label>
+      <textarea
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white resize-none focus:bg-[#0c0f2b] ease-in-out duration-100 h-44 "
+        name="message"
+        placeholder="Message"
+        required
+      />
       <button
-        className=" bg-white text-black w-auto
-         h-10"
+        className=" bg-beige hover:bg-white focus:bg-white ease-in-out duration-100 text-black font-semibold rounded-sm text-lg mt-2
+         h-10 w-40"
         type="submit"
         value="Send"
       >

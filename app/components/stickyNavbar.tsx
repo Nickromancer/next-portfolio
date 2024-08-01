@@ -17,11 +17,34 @@ export default function StickyNavbar() {
         <div>
           <Avatar></Avatar>
         </div>
-        <div className=" flex text-orange gap-5 xl:text-2xl lg:text-lg ">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+        <div className=" flex text-orange gap-5 xl:text-3xl lg:text-lg font-extralight ">
+          <a
+            className="hover:text-beige ease-in-out hover:-translate-y-2 hover:pb-2 duration-100"
+            href="#about"
+          >
+            About
+          </a>
+          -
+          <a
+            className="hover:text-beige ease-in-out hover:-translate-y-2 hover:pb-2 duration-100"
+            href="#skills"
+          >
+            Skills
+          </a>
+          -
+          <a
+            className="hover:text-beige ease-in-out hover:-translate-y-2 hover:pb-2 duration-100"
+            href="#projects"
+          >
+            Projects
+          </a>
+          -
+          <a
+            className="hover:text-beige ease-in-out hover:-translate-y-2 hover:pb-2 duration-100"
+            href="#contact"
+          >
+            Contact
+          </a>
         </div>
       </div>
     </>

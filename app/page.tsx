@@ -8,7 +8,7 @@ import Contact from "./components/contact";
 export default function Home() {
   return (
     <>
-      <div className="grow lg:ml-12 xl:ml-0 lg:mr-20 xl:mr-16 flex flex-col  w-1/2 mb-12">
+      <div className="grow lg:ml-12 xl:ml-0 lg:mr-20 xl:mr-16 flex flex-col  w-1/2 ">
         <About></About>
         <hr />
         <Skills></Skills>
