@@ -5,7 +5,7 @@ export default function Projects() {
     <>
       <div className="py-16" id="projects">
         <h1 className="text-3xl mb-4 text-white font-bold">Projects</h1>
-        <div className=" flex flex-wrap gap-10 h-auto">
+        <div className=" flex flex-wrap gap-10 h-auto justify-center">
           <Card
             path="DHI.png"
             title="Green Up - Urban Cooling"
