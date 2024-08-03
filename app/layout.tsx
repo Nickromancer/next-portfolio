@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 import StickyNavbar from "./components/stickyNavbar";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +29,8 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <SpeedInsights></SpeedInsights>
+        <SpeedInsights />
+        <Analytics />
         <div className="sm:flex sm:flex-col md:flex-row   ">
           <StickyNavbar></StickyNavbar>
           {children}

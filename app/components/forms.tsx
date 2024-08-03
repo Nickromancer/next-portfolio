@@ -5,7 +5,6 @@ import emailjs from "@emailjs/browser";
 
 export const ContactUs = () => {
   const form = useRef<HTMLFormElement | null>(null);
-  console.log(process.env.NEXT_PUBLIC_PUBLIC_KEY);
 
   const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
