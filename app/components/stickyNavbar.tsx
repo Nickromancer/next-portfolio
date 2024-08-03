@@ -12,8 +12,8 @@ export default function StickyNavbar() {
             Software Developer
           </h2>
           <h3 className=" md:text-2xl font-thin">
-            MSc Game Technology Student aspiring to become a full-stack IT
-            wizard & Game Developer
+            MSc Game Technology Student Aspiring to Become a Full-Stack IT
+            Wizard & Game Developer
           </h3>
         </div>
         <div>
