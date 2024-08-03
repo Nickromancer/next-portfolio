@@ -11,7 +11,9 @@ export default function Projects() {
             title="Green Up - Urban Cooling"
             description="Green-Up is an urban cooling tool that allows urban planners to simulate the temperature in cities based on what kind of elements are in the area, be it buildings or parks. "
             tags={["React", "Scrum", "DevOps", "Docker", "Agile"]}
-            link={""}
+            link={
+              "https://www.linkedin.com/feed/update/urn:li:activity:7089525611995545600/"
+            }
           ></Card>
           <Card
             path="Chirp.png"

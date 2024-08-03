@@ -10,7 +10,7 @@ export default function Avatar() {
           alt=""
           width={0}
           height={0}
-          className=" rounded-full drop-shadow-profile w-64 md:w-80"
+          className=" rounded-full drop-shadow-profile w-64 lg:w-80"
         ></Image>
       </div>
     </>
