@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head></head>
       <body className={inter.className}>
-        <div className=" flex ">
+        <div className="sm:flex sm:flex-col md:flex-row   ">
           <StickyNavbar></StickyNavbar>
           {children}
         </div>

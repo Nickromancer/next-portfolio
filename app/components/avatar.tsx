@@ -8,9 +8,9 @@ export default function Avatar() {
         <Image
           src={Profile}
           alt=""
-          width={350}
-          height={350}
-          className=" rounded-full drop-shadow-profile"
+          width={0}
+          height={0}
+          className=" rounded-full drop-shadow-profile w-64 lg:w-80"
         ></Image>
       </div>
     </>

@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
-      <div className="pt-16 pb-14  text-white" id="contact">
+      <div className="pt-16 pb-14  text-white relative" id="contact">
         <h1 className="font-bold text-3xl mb-4">Contact</h1>
         <p className=" text-md font-extralight mb-2">
           Get in touch or send me an email directly on
@@ -35,6 +35,10 @@ export default function Contact() {
           <a href="https://www.instagram.com/nicholas.hanzen/">
             <FaInstagram className="size-12 hover:text-white duration-100 ease-in-out" />
           </a>
+        </div>
+
+        <div className="hidden md:flex justify-center absolute bottom-3 right-6 text-md font-extralight">
+          <p>Made with Next.js</p>
         </div>
       </div>
     </>
