@@ -21,12 +21,15 @@ export const ContactUs = () => {
       )
       .then(
         () => {
+          alert("Message sent!");
           console.log("SUCCESS!");
         },
         (error) => {
+          alert(error);
           console.log("FAILED...", error.text);
         }
       );
+    form.current?.reset();
   };
 
   return (
