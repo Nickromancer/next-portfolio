@@ -7,7 +7,7 @@ export default function Projects() {
         <h1 className="text-3xl mb-4 text-white font-bold">Projects</h1>
         <div className=" flex flex-wrap gap-10 h-auto justify-center">
           <Card
-            path="DHI.png"
+            path="ISEGif.gif"
             title="Green Up - Urban Cooling"
             description="Green-Up is an urban cooling tool that allows urban planners to simulate the temperature in cities based on what kind of elements are in the area, be it buildings or parks. "
             tags={["React", "Scrum", "DevOps", "Docker", "Agile"]}

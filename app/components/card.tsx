@@ -22,7 +22,7 @@ export default function Card(props: {
           src={Picture}
           alt=""
           style={{ height: "300px", width: "300px", objectFit: "cover" }}
-          className="rounded-2xl blur-[1px] md:blur-1 "
+          className="rounded-2xl blur-[1px] md:blur-0 "
         ></Image>
         <div className="ease-in-out duration-300 bg-white absolute bottom-0 rounded-b-xl w-full md:group-hover:h-3/4 md:h-0 flex">
           <div className="p-4 text-white">
