@@ -43,13 +43,24 @@ export default function Projects() {
             link={"https://nickromancer1.itch.io/quest-for-caladrius"}
           ></Card>
           <Card
-            path={"Analogians.png"}
+            path={"AnalogiansGif.gif"}
             title={"Analogians"}
             description={
               "A game about a time long ago, where the Analogians lived in a world filled with love, affection and community. Find the Analogians, give them affection and restore love to their world."
             }
             tags={["Unreal", "Nordic GameJam24'", "C++", "Figma"]}
             link={"https://hounsvad.itch.io/analogians"}
+          ></Card>
+          <Card
+            path={"Gamegif10.gif"}
+            title={"Godot Engine - Starter 2D Game"}
+            description={
+              "My first attempt at Godot, the open-source game engine where I completed a small 2D project using the engine's own langauge and conventions"
+            }
+            tags={["Godot", "GDScript", "Tutorial"]}
+            link={
+              "https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html"
+            }
           ></Card>
           <Card
             path={"OldWebsite.png"}
