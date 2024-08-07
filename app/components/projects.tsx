@@ -52,10 +52,10 @@ export default function Projects() {
             link={"https://hounsvad.itch.io/analogians"}
           ></Card>
           <Card
-            path={"Gamegif10.gif"}
-            title={"Godot Engine - Starter 2D Game"}
+            path={"squash.gif"}
+            title={"Godot Engine - Starter 3D Game"}
             description={
-              "My first attempt at Godot, the open-source game engine where I completed a small 2D project using the engine's own langauge and conventions"
+              "My first attempt at Godot, the open-source game engine where I completed a small project using the engine's own langauge and conventions"
             }
             tags={["Godot", "GDScript", "Tutorial"]}
             link={
