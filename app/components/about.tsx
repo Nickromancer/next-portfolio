@@ -4,7 +4,7 @@ export default function About() {
       <div className="text-white py-16" id="about">
         <h1 className=" text-4xl mb-5 font-bold">Hello World! 👋🌍</h1>
         <p>
-          I&apos;m a 22-year-old currently studying for a MSc in Games
+          I&apos;m a 23-year-old currently studying for a MSc in Games
           Technology at the IT-University of Copenhagen. When I&apos;m not
           hitting the books at my study, you can find me helping others as a
           Teaching Assistant in web development or working as a barista in our

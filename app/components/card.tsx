@@ -16,15 +16,19 @@ export default function Card(props: {
     <>
       <Link
         href={props.link}
-        className="group relative rounded-xl overflow-hidden xl:w-[46%]"
+        className="group relative rounded-xl overflow-hidden my-auto mx-auto "
       >
         <Image
           src={Picture}
           alt=""
-          style={{ height: "300px", width: "300px", objectFit: "cover" }}
+          style={{
+            height: "300px",
+            width: "350px",
+            objectFit: "cover",
+          }}
           className="rounded-2xl blur-[1px] md:blur-0 "
         ></Image>
-        <div className="ease-in-out duration-300 bg-white/90 md:bg-white absolute bottom-0 rounded-b-xl w-full md:group-hover:h-3/4 md:h-0 flex">
+        <div className="ease-in-out duration-300 bg-white/90 md:bg-white absolute bottom-0 rounded-b-xl w-fit md:group-hover:h-3/4 md:h-0 flex">
           <div className="p-4 text-white">
             <p className=" text-black font-bold text-lg">{props.title}</p>
             <p className=" text-black font-light pb-2 text-sm ">
