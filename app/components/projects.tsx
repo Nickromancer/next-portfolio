@@ -4,8 +4,10 @@ export default function Projects() {
   return (
     <>
       <div className="py-16" id="projects">
-        <h1 className="text-4xl mb-4 text-white font-bold">Projects</h1>
-        <div className=" flex flex-wrap gap-10 h-auto justify-center">
+        <h1 className="text-6xl mb-12 text-white font-bold text-center">
+          Projects & Games
+        </h1>
+        <div className="flex flex-wrap gap-16 h-auto justify-center">
           <Card
             path="ISEGif.gif"
             title="Green Up - Urban Cooling"

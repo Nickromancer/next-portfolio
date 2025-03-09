@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import styles from "./styles.module.css";
-import StickyNavbar from "./components/stickyNavbar";
+import Header from "./components/header";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
@@ -31,9 +31,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <SpeedInsights />
         <Analytics />
-        <div className="sm:flex sm:flex-col md:flex-row   ">
-          <StickyNavbar></StickyNavbar>
-          {children}
+        <div className="sm:flex  md:flex-col">
+          <div className="bg-orange">
+            <Header></Header>
+          </div>
+          <div className="mx-20">{children}</div>
         </div>
       </body>
     </html>
