@@ -9,6 +9,31 @@ export default function Projects() {
         </h1>
         <div className="flex flex-wrap gap-16 h-auto justify-center">
           <Card
+            path="WelcomeHome.gif"
+            title="Welcome Home"
+            description="As part of my MSc course, my team and I developed a PS1-styled
+                horror game inspired by the movie Midsommar. I was the tech lead, using agile methodology and kanban to organize our project and goals, deploying the game with over 30k downloads on itch.io!"
+            tags={["Horror", "Unity", "Agile", "Kanban"]}
+            link="https://stalker-studios.itch.io/welcome-home"
+          ></Card>
+          <Card
+            path="Rick.png"
+            title="Rick Rush: Rhythm Game"
+            description="Using the SimpleRenderEngine (SRE), I extended the engine with a game loop synced with a music track and matching the BPM of a song.
+            This was simulated in a rhythm game using Rick Astley's classic songs, with lanes containing nodes that the player needed to hit on time."
+            tags={["C++", "SDL", "SRE", "Rhythm", "Engine"]}
+            link="https://github.com/Nickromancer/GPRO_ExamProject/tree/main"
+          ></Card>
+          <Card
+            path={"AnalogiansGif.gif"}
+            title={"Analogians"}
+            description={
+              "A game about a time long ago, where the Analogians lived in a world filled with love, affection and community. Find the Analogians, give them affection and restore love to their world."
+            }
+            tags={["Unreal", "Nordic GameJam24'", "C++", "Figma"]}
+            link={"https://hounsvad.itch.io/analogians"}
+          ></Card>
+          <Card
             path="ISEGif.gif"
             title="Green Up - Urban Cooling"
             description="Green-Up is an urban cooling tool that allows urban planners to simulate the temperature in cities based on what kind of elements are in the area, be it buildings or parks. "
@@ -16,6 +41,26 @@ export default function Projects() {
             link={
               "https://www.linkedin.com/feed/update/urn:li:activity:7089525611995545600/"
             }
+          ></Card>
+          <Card
+            path={"squash.gif"}
+            title={"Godot Engine - Starter 3D Game"}
+            description={
+              "My first attempt at Godot, the open-source game engine where I completed a small project using the engine's own langauge and conventions"
+            }
+            tags={["Godot", "GDScript", "Tutorial"]}
+            link={
+              "https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html"
+            }
+          ></Card>
+          <Card
+            path={"Quest.png"}
+            title={"Quest for Caladrius"}
+            description={
+              "The game is a visual novel with mini-games where you help people along the way with their everyday problems so that you may find and obtain the caladrius' tears."
+            }
+            tags={["Unity", "Nordic GameJam23'", "C#", "Trello"]}
+            link={"https://nickromancer1.itch.io/quest-for-caladrius"}
           ></Card>
           <Card
             path="Chirp.png"
@@ -34,35 +79,6 @@ export default function Projects() {
               "UML",
             ]}
             link={"https://github.com/ITU-BDSA23-GROUP14/Chirp"}
-          ></Card>
-          <Card
-            path={"Quest.png"}
-            title={"Quest for Caladrius"}
-            description={
-              "The game is a visual novel with mini-games where you help people along the way with their everyday problems so that you may find and obtain the caladrius' tears."
-            }
-            tags={["Unity", "Nordic GameJam23'", "C#", "Trello"]}
-            link={"https://nickromancer1.itch.io/quest-for-caladrius"}
-          ></Card>
-          <Card
-            path={"AnalogiansGif.gif"}
-            title={"Analogians"}
-            description={
-              "A game about a time long ago, where the Analogians lived in a world filled with love, affection and community. Find the Analogians, give them affection and restore love to their world."
-            }
-            tags={["Unreal", "Nordic GameJam24'", "C++", "Figma"]}
-            link={"https://hounsvad.itch.io/analogians"}
-          ></Card>
-          <Card
-            path={"squash.gif"}
-            title={"Godot Engine - Starter 3D Game"}
-            description={
-              "My first attempt at Godot, the open-source game engine where I completed a small project using the engine's own langauge and conventions"
-            }
-            tags={["Godot", "GDScript", "Tutorial"]}
-            link={
-              "https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html"
-            }
           ></Card>
           <Card
             path={"OldWebsite.png"}

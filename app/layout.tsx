@@ -20,6 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   1;
+
   return (
     <html lang="en">
       <head>
@@ -32,10 +33,10 @@ export default function RootLayout({
         <SpeedInsights />
         <Analytics />
         <div className="sm:flex  md:flex-col">
-          <div className="bg-orange">
+          <div className="bg-orange top-0 fixed w-screen z-10">
             <Header></Header>
           </div>
-          <div className="mx-20">{children}</div>
+          <div className="mx-20 pt-48">{children}</div>
         </div>
       </body>
     </html>

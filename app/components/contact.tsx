@@ -1,8 +1,4 @@
 import Forms from "@/app/components/forms";
-import { IoLogoGithub } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   return (
