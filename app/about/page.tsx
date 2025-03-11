@@ -53,7 +53,8 @@ export default function About() {
           >
             <a
               className="text-black m-auto font-light"
-              href="/Resume.pdf"
+              href={"Resume.pdf"}
+              rel="noopener noreferrer"
               target="_blank"
               download
             >
