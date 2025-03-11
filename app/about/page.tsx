@@ -51,15 +51,14 @@ export default function About() {
           <div
             className={`flex p-1 px-2 mb-4 bg-white rounded-md mt-6 mr-auto `}
           >
-            <Link
+            <a
               className="text-black m-auto font-light"
               href="/Resume.pdf"
               target="_blank"
-              passHref
               download
             >
               My Resume
-            </Link>
+            </a>
           </div>
         </div>
       </div>
