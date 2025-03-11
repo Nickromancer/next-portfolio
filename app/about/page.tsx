@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <div className="text-white py-16 flex gap-16" id="about">
-        <div className="grid  grid-cols-2  [&>*]:rounded-xl [&>*]:border-solid gap-4 [&>*]:border-2 [&>*]:border-white h-0  ">
+        <div className="md:grid  grid-cols-2  [&>*]:rounded-xl [&>*]:border-solid gap-4 [&>*]:border-2 [&>*]:border-white h-0 hidden  ">
           <Image className="" src={Profile1} alt="" width={660}></Image>
           <Image className="" src={Profile3} alt="" width={660}></Image>
           <Image
@@ -18,8 +18,8 @@ export default function About() {
             width={660}
           ></Image>
         </div>
-        <div className="flex flex-col">
-          <h1 className=" text-4xl mb-5 font-bold">Hello World! 👋🌍</h1>
+        <div className="flex flex-col md:px-0 px-4">
+          <h1 className=" text-4xl mb-5 font-bold ">Hello World! 👋🌍</h1>
           <p>
             I&apos;m a 23-year-old currently studying for a MSc in Games
             Technology at the IT-University of Copenhagen. When I&apos;m not
@@ -53,9 +53,10 @@ export default function About() {
           >
             <Link
               className="text-black m-auto font-light"
-              href="Diploma.pdf"
+              href="/Resume.pdf"
               target="_blank"
               passHref
+              download
             >
               My Resume
             </Link>

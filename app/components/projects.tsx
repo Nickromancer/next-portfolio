@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <>
       <div className="py-16" id="projects">
-        <h1 className="text-6xl mb-12 text-white font-bold text-center">
+        <h1 className="md:text-6xl text-4xl mb-12 text-white font-bold text-center">
           Projects & Games
         </h1>
         <div className="flex flex-wrap gap-16 h-auto justify-center">

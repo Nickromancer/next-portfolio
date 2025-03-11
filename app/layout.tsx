@@ -36,7 +36,7 @@ export default function RootLayout({
           <div className="bg-orange top-0 fixed w-screen z-10">
             <Header></Header>
           </div>
-          <div className="mx-20 pt-48">{children}</div>
+          <div className="md:mx-20 md:pt-48 pt-64">{children}</div>
         </div>
       </body>
     </html>

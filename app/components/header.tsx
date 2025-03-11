@@ -28,12 +28,12 @@ export default function Header() {
   return (
     <>
       <div
-        className={`text-white grid grid-cols-4 gap-16 pt-6 mx-48 ease-in-out duration-300`}
+        className={`text-white md:grid md:grid-cols-4 gap-16 pt-6 md:mx-48 ease-in-out duration-300`}
       >
         <div>
           <Avatar collapsed={scrollY > 0 ? true : false}></Avatar>
         </div>
-        <div className="col-span-2 flex flex-col">
+        <div className="col-span-2 flex flex-col px-8 md:px-0">
           <h1 className="text-4xl font-semibold self-center">
             Nicholas Hansen
           </h1>
@@ -58,7 +58,7 @@ export default function Header() {
           </div>
         </div>
         <div className="flex flex-col justify-between">
-          <div className="flex justify-around text-beige   text-4xl">
+          <div className="hidden md:flex justify-around text-beige text-4xl">
             <a href="https://github.com/Nickromancer">
               <IoLogoGithub className="size-10 hover:text-white duration-100 ease-in-out" />
             </a>

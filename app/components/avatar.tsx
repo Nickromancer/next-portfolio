@@ -4,7 +4,7 @@ import Profile from "@/public/Profile-removebg-preview.png";
 export default function Avatar(props: { collapsed: boolean }) {
   return (
     <>
-      <div className="bg-white rounded-full inline-block overflow-auto border-solid border-2 border-orange">
+      <div className="bg-white rounded-full overflow-auto border-solid border-2 border-orange hidden md:inline-block">
         <a href="/">
           <Image
             src={Profile}
