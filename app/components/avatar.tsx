@@ -9,8 +9,8 @@ export default function Avatar(props: { collapsed: boolean }) {
           <Image
             src={Profile}
             alt=""
-            width={75}
-            height={75}
+            width={500}
+            height={500}
             className={`ease-in-out duration-300 rounded-full drop-shadow-profile w-${
               props.collapsed ? "5" : "40"
             }`}
