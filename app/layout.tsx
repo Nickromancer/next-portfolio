@@ -33,10 +33,10 @@ export default function RootLayout({
         <SpeedInsights />
         <Analytics />
         <div className="sm:flex  md:flex-col">
-          <div className="bg-orange top-0 fixed w-screen z-10">
+          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10">
             <Header></Header>
           </div>
-          <div className="md:mx-20 md:pt-48 pt-64">{children}</div>
+          <div className="">{children}</div>
         </div>
       </body>
     </html>
