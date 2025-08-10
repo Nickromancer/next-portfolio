@@ -32,8 +32,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <SpeedInsights />
         <Analytics />
-        <div className="sm:flex  md:flex-col">
-          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10">
+        <div className="sm:flex md:flex">
+          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 px-40 py-3">
             <Header></Header>
           </div>
           <div className="">{children}</div>
