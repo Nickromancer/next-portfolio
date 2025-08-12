@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Model from "./modelScene";
 export default function Works() {
   return (
     <>
@@ -79,6 +80,9 @@ export default function Works() {
               <h3>
                 Github / Kanban / Blender / FMOD / Substance Painter / Photoshop
               </h3>
+            </div>
+            <div>
+              <Model></Model>
             </div>
           </div>
           <div className="mx-auto w-max flex gap-4">

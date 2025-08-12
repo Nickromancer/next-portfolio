@@ -9,7 +9,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
     config.module.rules.push({
-      test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|rtf|doc|pdf)$/,
+      test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|rtf|doc|pdf|obj|mtl)$/,
       use: {
         loader: "file-loader",
         options: {
