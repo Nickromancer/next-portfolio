@@ -20,19 +20,23 @@ const ThreeScene: React.FC = () => {
       1000
     );
     camera.zoom = 1;
-    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    const renderer = new THREE.WebGLRenderer({ alpha: true, precision: "highp", antialias: true });
     const controls = new OrbitControls(camera, renderer.domElement);
     renderer.setSize(600, 500);
     containerRef.current?.appendChild(renderer.domElement);
     camera.position.set(20, 20, 20);
 
+    controls.enableZoom = false;
+
+    controls.minPolarAngle = 1;
+    controls.maxPolarAngle = Math.PI-1;
     controls.update();
-    controls.disconnect();
+    //controls.disconnect();
 
     const models = new THREE.Group();
 
     const circleGeometry = new THREE.CircleGeometry(12, 32);
-    const circleMaterial = new THREE.MeshBasicMaterial({ color: 0xffff00 });
+    const circleMaterial = new THREE.MeshBasicMaterial({ color: 0x000000 });
     const circle = new THREE.Mesh(circleGeometry, circleMaterial);
     circle.rotation.set(3.14 * 0.5, 0, 0);
     models.add(circle);
@@ -65,14 +69,20 @@ const ThreeScene: React.FC = () => {
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
-    const light = new THREE.DirectionalLight(0x87ceeb, 1); // white ambient light
-    light.position.set(-10, 150, 50);
+    const light = new THREE.DirectionalLight(0xFFFFFF, 2); // white ambient light
+    light.position.set(-10, 50, 50);
     scene.add(light);
+
+    const backLight = new THREE.DirectionalLight(0xFFFFFF, 0.5); // white ambient light
+    backLight.position.set(10, 50, -50);
+    scene.add(backLight);
 
     // Add this function inside the useEffect hook
     const renderScene = () => {
       models.rotation.y += 0.005;
       cube.rotation.y += 0.01;
+
+   
       renderer.render(scene, camera);
       requestAnimationFrame(renderScene);
     };
