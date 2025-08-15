@@ -26,114 +26,114 @@ import { SiPostman } from "react-icons/si";
 export default function Skills() {
   return (
     <>
-      <div className="text-white py-16 px-4 md:px-0" id="skills">
+      <div className="text-white" id="skills">
         <h1 className=" text-3xl mb-4 font-bold">Skills</h1>
         <div>
-          <h1 className="text-xl mb-2">Frontend</h1>
-          <div className="text-black rounded-md flex flex-wrap gap-4  ">
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <IoLogoHtml5 className="size-10"></IoLogoHtml5>
+          <h1 className="text-md mb-2">Frontend</h1>
+          <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="">
+              <IoLogoHtml5 className="size-6"></IoLogoHtml5>
               <p className=" ">HTML</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <DiCss3 className="size-10"></DiCss3>
+            <div>
+              <DiCss3 className="size-6"></DiCss3>
               <p className=" ">CSS</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <RiTailwindCssFill className="size-10"></RiTailwindCssFill>
+            <div>
+              <RiTailwindCssFill className="size-6"></RiTailwindCssFill>
               <p className=" ">Tailwind CSS</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <IoLogoJavascript className="size-10"></IoLogoJavascript>
+            <div>
+              <IoLogoJavascript className="size-6"></IoLogoJavascript>
               <p className=" ">JavaScript</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiTypescript className="size-10"></SiTypescript>
+            <div>
+              <SiTypescript className="size-6"></SiTypescript>
               <p className=" ">TypeScript</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaReact className="size-10"></FaReact>
+            <div>
+              <FaReact className="size-6"></FaReact>
               <p className=" ">React</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiNextdotjs className="size-10"></SiNextdotjs>
+            <div>
+              <SiNextdotjs className="size-6"></SiNextdotjs>
               <p className=" ">Next.js</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <DiJqueryLogo className="size-10"></DiJqueryLogo>
+            <div>
+              <DiJqueryLogo className="size-6"></DiJqueryLogo>
               <p className=" ">JQuery</p>
             </div>
           </div>
-          <h1 className="text-xl mt-8 mb-2">Backend</h1>
-          <div className="text-black rounded-md flex flex-wrap gap-4  ">
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaNodeJs className="size-10"></FaNodeJs>
+          <h1 className="text-md mt-8 mb-2">Backend</h1>
+          <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="">
+              <FaNodeJs className="size-6"></FaNodeJs>
               <p className=" ">Node.js</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiExpress className="size-10"></SiExpress>
+            <div className="">
+              <SiExpress className="size-6"></SiExpress>
               <p className=" ">Express.js</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <DiPostgresql className="size-10"></DiPostgresql>
+            <div className="">
+              <DiPostgresql className="size-6"></DiPostgresql>
               <p className=" ">Postgres</p>
             </div>
           </div>
-          <h1 className="text-xl mt-8 mb-2">Languages</h1>
-          <div className="text-black rounded-md flex flex-wrap gap-4  ">
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaJava className="size-10"></FaJava>
+          <h1 className="text-md mt-8 mb-2">Languages</h1>
+          <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]  ">
+            <div className="">
+              <FaJava className="size-6"></FaJava>
               <p className=" ">Java</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaC className="size-10"></FaC>
+            <div className="">
+              <FaC className="size-6"></FaC>
               <p className=" ">C</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiCplusplus className="size-10"></SiCplusplus>
+            <div className="">
+              <SiCplusplus className="size-6"></SiCplusplus>
               <p className=" ">C++</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiCsharp className="size-10"></SiCsharp>
+            <div className="">
+              <SiCsharp className="size-6"></SiCsharp>
               <p className=" ">C#</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaGolang className="size-10"></FaGolang>
+            <div className="">
+              <FaGolang className="size-6"></FaGolang>
               <p className=" ">GoLang</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiFsharp className="size-10"></SiFsharp>
+            <div className="">
+              <SiFsharp className="size-6"></SiFsharp>
               <p className=" ">F#</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <BsFillTerminalFill className="size-10"></BsFillTerminalFill>
+            <div className="">
+              <BsFillTerminalFill className="size-6"></BsFillTerminalFill>
               <p className=" ">Assembly</p>
             </div>
           </div>
-          <h1 className="text-xl mt-8 mb-2">Tools</h1>
-          <div className="text-black rounded-md flex flex-wrap gap-4  ">
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaGitAlt className="size-10"></FaGitAlt>
+          <h1 className="text-md mt-8 mb-2">Tools</h1>
+          <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="">
+              <FaGitAlt className="size-6"></FaGitAlt>
               <p className=" ">Git</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <IoLogoGithub className="size-10"></IoLogoGithub>
+            <div className="">
+              <IoLogoGithub className="size-6"></IoLogoGithub>
               <p className=" ">GitHub</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaLinux className="size-10"></FaLinux>
+            <div className="">
+              <FaLinux className="size-6"></FaLinux>
               <p className=" ">Linux</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiMicrosoftazure className="size-10"></SiMicrosoftazure>
+            <div className="">
+              <SiMicrosoftazure className="size-6"></SiMicrosoftazure>
               <p className=" ">Microsoft Azure</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <FaDocker className="size-10"></FaDocker>
+            <div className="">
+              <FaDocker className="size-6"></FaDocker>
               <p className=" ">Docker</p>
             </div>
-            <div className="flex p-1 px-2 items-center bg-white rounded-md gap-2">
-              <SiPostman className="size-10"></SiPostman>
+            <div className="">
+              <SiPostman className="size-6"></SiPostman>
               <p className=" ">Postman</p>
             </div>
           </div>

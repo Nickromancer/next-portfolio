@@ -66,10 +66,6 @@ const ThreeScene: React.FC = () => {
 
     models.position.set(0, -15, 0);
     scene.add(models);
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
 
     const light = new THREE.DirectionalLight(0xffffff, 2); // white ambient light
     light.position.set(-10, 50, 50);
@@ -81,8 +77,7 @@ const ThreeScene: React.FC = () => {
 
     // Add this function inside the useEffect hook
     const renderScene = () => {
-      models.rotation.y += 0.005;
-      cube.rotation.y += 0.01;
+      models.rotation.y += 0.0025;
 
       renderer.render(scene, camera);
       requestAnimationFrame(renderScene);
