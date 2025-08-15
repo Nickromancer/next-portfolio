@@ -20,18 +20,20 @@ const ThreeScene: React.FC = () => {
       1000
     );
     camera.zoom = 1;
-    const renderer = new THREE.WebGLRenderer({ alpha: true, precision: "highp", antialias: true });
-    const controls = new OrbitControls(camera, renderer.domElement);
+    const renderer = new THREE.WebGLRenderer({
+      alpha: true,
+      precision: "highp",
+      antialias: true,
+    });
     renderer.setSize(600, 500);
     containerRef.current?.appendChild(renderer.domElement);
     camera.position.set(20, 20, 20);
 
+    const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableZoom = false;
-
     controls.minPolarAngle = 1;
-    controls.maxPolarAngle = Math.PI-1;
+    controls.maxPolarAngle = Math.PI - 1;
     controls.update();
-    //controls.disconnect();
 
     const models = new THREE.Group();
 
@@ -42,13 +44,13 @@ const ThreeScene: React.FC = () => {
     models.add(circle);
 
     const mtlLoader = new MTLLoader();
-    mtlLoader.load("GWD_Church.mtl", (materials) => {
+    mtlLoader.load("GamesAndCulture/GWD_Church.mtl", (materials) => {
       materials.preload();
       console.log(materials);
       const objLoader = new OBJLoader();
       objLoader.setMaterials(materials);
       objLoader.load(
-        "GWD_Church.obj",
+        "GamesAndCulture/GWD_Church.obj",
         (object) => {
           object.castShadow = true;
           models.add(object);
@@ -69,11 +71,11 @@ const ThreeScene: React.FC = () => {
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
-    const light = new THREE.DirectionalLight(0xFFFFFF, 2); // white ambient light
+    const light = new THREE.DirectionalLight(0xffffff, 2); // white ambient light
     light.position.set(-10, 50, 50);
     scene.add(light);
 
-    const backLight = new THREE.DirectionalLight(0xFFFFFF, 0.5); // white ambient light
+    const backLight = new THREE.DirectionalLight(0xffffff, 0.5); // white ambient light
     backLight.position.set(10, 50, -50);
     scene.add(backLight);
 
@@ -82,7 +84,6 @@ const ThreeScene: React.FC = () => {
       models.rotation.y += 0.005;
       cube.rotation.y += 0.01;
 
-   
       renderer.render(scene, camera);
       requestAnimationFrame(renderScene);
     };

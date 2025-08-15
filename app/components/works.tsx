@@ -94,6 +94,48 @@ export default function Works() {
             </button>
           </div>
         </div>
+
+        <div className="bg-[url(https://img.itch.zone/aW1nLzIxNzczNjIzLnBuZw==/original/43vDPn.png)] bg-center">
+          <div className="flex justify-between items-center">
+            <div
+              className=" text-white [&_p]:text-gray-400 
+        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 *:w-96"
+            >
+              <p>Unreal | PC </p>
+              <h1>The Untold Story of Vísdómír</h1>
+              <h3 className="text-wrap">
+                A first person mystery and detective game where you as the
+                player find yourself in an abandoned town. It is now your task
+                to find out what has happened and uncover the mysteries of the
+                previous residents.
+              </h3>{" "}
+              <h2>Role</h2>
+              <h3>Tech Artist</h3>
+              <h2>Size: 6</h2>
+              <h3>
+                Producer / Creative Director / Tech Artist / Narrative Designer
+                / Programmer / Programmer
+              </h3>
+              <h2>Duration</h2>
+              <h3>2025 Feburary - 2025 May</h3>
+              <h2>Tools & Software</h2>
+              <h3>
+                Github / Kanban / Blender / FMOD / Substance Painter / Photoshop
+              </h3>
+            </div>
+            <div>
+              <Model></Model>
+            </div>
+          </div>
+          <div className="mx-auto w-max flex gap-4">
+            <button className="text-black bg-white rounded-full w-32 h-12">
+              View More
+            </button>
+            <button className="text-white bg-orange rounded-full w-32 h-12">
+              Play Now
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
