@@ -11,9 +11,6 @@ export default function Home() {
         <Intro></Intro>
         <Works></Works>
         <Projects></Projects>
-        <hr />
-        <Skills></Skills>
-        <hr />
         <Contact></Contact>
       </div>
     </>

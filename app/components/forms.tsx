@@ -57,7 +57,7 @@ export const ContactUs = () => {
         required
       />
       <button
-        className=" bg-beige hover:bg-white focus:bg-white ease-in-out duration-100 text-black font-semibold rounded-sm text-lg mt-2
+        className=" bg-beige hover:bg-white focus:bg-white ease-in-out duration-100 text-white font-semibold rounded-sm text-lg mt-2
          h-10 w-40"
         type="submit"
         value="Send"

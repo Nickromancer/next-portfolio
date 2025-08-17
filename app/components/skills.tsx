@@ -22,122 +22,135 @@ import { FaLinux } from "react-icons/fa";
 import { SiMicrosoftazure } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
+import { FaUnity } from "react-icons/fa6";
+import Image from "next/image";
+
 
 export default function Skills() {
   return (
     <>
       <div className="text-white" id="skills">
-        <h1 className=" text-3xl mb-4 font-bold">Skills</h1>
-        <div>
+        <h1 className=" text-2xl mb-4 font-bold">Skills</h1>
+        <hr />
+        <div className="mt-4">
           <h1 className="text-md mb-2">Frontend</h1>
           <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
-            <div className="">
+            <div>
               <IoLogoHtml5 className="size-6"></IoLogoHtml5>
-              <p className=" ">HTML</p>
+              <p>HTML</p>
             </div>
             <div>
               <DiCss3 className="size-6"></DiCss3>
-              <p className=" ">CSS</p>
+              <p>CSS</p>
             </div>
             <div>
               <RiTailwindCssFill className="size-6"></RiTailwindCssFill>
-              <p className=" ">Tailwind CSS</p>
+              <p>Tailwind CSS</p>
             </div>
             <div>
               <IoLogoJavascript className="size-6"></IoLogoJavascript>
-              <p className=" ">JavaScript</p>
+              <p>JavaScript</p>
             </div>
             <div>
               <SiTypescript className="size-6"></SiTypescript>
-              <p className=" ">TypeScript</p>
+              <p>TypeScript</p>
             </div>
             <div>
               <FaReact className="size-6"></FaReact>
-              <p className=" ">React</p>
+              <p>React</p>
             </div>
             <div>
               <SiNextdotjs className="size-6"></SiNextdotjs>
-              <p className=" ">Next.js</p>
+              <p>Next.js</p>
             </div>
             <div>
               <DiJqueryLogo className="size-6"></DiJqueryLogo>
-              <p className=" ">JQuery</p>
+              <p>JQuery</p>
             </div>
           </div>
           <h1 className="text-md mt-8 mb-2">Backend</h1>
           <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
-            <div className="">
+            <div>
               <FaNodeJs className="size-6"></FaNodeJs>
-              <p className=" ">Node.js</p>
+              <p>Node.js</p>
             </div>
-            <div className="">
+            <div>
               <SiExpress className="size-6"></SiExpress>
-              <p className=" ">Express.js</p>
+              <p>Express.js</p>
             </div>
-            <div className="">
+            <div>
               <DiPostgresql className="size-6"></DiPostgresql>
-              <p className=" ">Postgres</p>
+              <p>Postgres</p>
             </div>
           </div>
           <h1 className="text-md mt-8 mb-2">Languages</h1>
           <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]  ">
-            <div className="">
+            <div>
               <FaJava className="size-6"></FaJava>
-              <p className=" ">Java</p>
+              <p>Java</p>
             </div>
-            <div className="">
+            <div>
               <FaC className="size-6"></FaC>
-              <p className=" ">C</p>
+              <p>C</p>
             </div>
-            <div className="">
+            <div>
               <SiCplusplus className="size-6"></SiCplusplus>
-              <p className=" ">C++</p>
+              <p>C++</p>
             </div>
-            <div className="">
+            < div>
               <SiCsharp className="size-6"></SiCsharp>
-              <p className=" ">C#</p>
+              <p>C#</p>
             </div>
-            <div className="">
+            < div>
               <FaGolang className="size-6"></FaGolang>
-              <p className=" ">GoLang</p>
+              <p>GoLang</p>
             </div>
-            <div className="">
+            < div>
               <SiFsharp className="size-6"></SiFsharp>
-              <p className=" ">F#</p>
+              <p>F#</p>
             </div>
-            <div className="">
+            < div>
               <BsFillTerminalFill className="size-6"></BsFillTerminalFill>
-              <p className=" ">Assembly</p>
+              <p>Assembly</p>
             </div>
           </div>
           <h1 className="text-md mt-8 mb-2">Tools</h1>
           <div className="text-black rounded-md flex flex-wrap gap-4 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
-            <div className="">
+            <div>
               <FaGitAlt className="size-6"></FaGitAlt>
-              <p className=" ">Git</p>
+              <p>Git</p>
             </div>
-            <div className="">
+            <div>
               <IoLogoGithub className="size-6"></IoLogoGithub>
-              <p className=" ">GitHub</p>
+              <p>GitHub</p>
             </div>
-            <div className="">
+            <div>
               <FaLinux className="size-6"></FaLinux>
-              <p className=" ">Linux</p>
+              <p>Linux</p>
             </div>
-            <div className="">
+            <div>
               <SiMicrosoftazure className="size-6"></SiMicrosoftazure>
-              <p className=" ">Microsoft Azure</p>
+              <p>Microsoft Azure</p>
             </div>
-            <div className="">
+            <div>
               <FaDocker className="size-6"></FaDocker>
-              <p className=" ">Docker</p>
+              <p>Docker</p>
             </div>
-            <div className="">
+            <div>
               <SiPostman className="size-6"></SiPostman>
-              <p className=" ">Postman</p>
+              <p>Postman</p>
+            </div>
+            <div>
+              <FaUnity className="size-6"></FaUnity>
+              <p>Unity</p>
+            </div>
+            <div>
+              <Image className="size-6" src="/UNREAL.png" width={24} height={24} alt="Unreal Engine logo" objectFit="contain" />
+              <p> Unreal</p>
             </div>
           </div>
         </div>
+        <hr className="mt-4" />
       </div>
     </>
   );

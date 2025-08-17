@@ -8,8 +8,9 @@ export default function Works() {
         <h1 className="font-semibold text-4xl py-3 px-40">Highlighted Works</h1>
       </div>
       <div className="*:px-40 *:py-14">
-        <div className="bg-[url(https://img.itch.zone/aW1nLzE5NDE0Nzk2LnBuZw==/original/leFyfg.png)]">
-          <div className="flex justify-between items-center">
+        <div className="bg-[url('../public/WelcomeHome.jpg')] bg-center relative">
+          <div className="absolute backdrop-blur-[1px] backdrop-brightness-[60%] w-full h-full left-0 top-0"></div>
+          <div className="relative flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 
         [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 *:w-96"
@@ -44,7 +45,7 @@ export default function Works() {
               ></Image>
             </div>
           </div>
-          <div className="mx-auto w-max flex gap-4">
+          <div className="relative mx-auto w-max flex gap-4">
             <button className="text-black bg-white rounded-full w-32 h-12">
               View More
             </button>
@@ -97,7 +98,7 @@ export default function Works() {
         </div>
 
         <div className="bg-sea bg-center relative ">
-          <div className="absolute backdrop-blur-[7px] w-full h-full left-0 top-0"></div>
+          <div className="absolute backdrop-blur-[2px] backdrop-brightness-[60%] w-full h-full left-0 top-0"></div>
           <div className="relative flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 
