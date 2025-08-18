@@ -46,9 +46,12 @@ export default function Works() {
             </div>
           </div>
           <div className="relative mx-auto w-max flex gap-4">
-            <button className="text-black bg-white rounded-full w-32 h-12">
-              View More
-            </button>
+            <a href="/WelcomeHome">
+
+              <button className="text-black bg-white rounded-full w-32 h-12">
+                View More
+              </button>
+            </a>
             <button className="text-white bg-orange rounded-full w-32 h-12">
               Play Now
             </button>

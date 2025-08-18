@@ -31,7 +31,9 @@ export default function Header() {
         className={`text-white flex place-content-between gap-16 ease-in-out duration-300`}
       >
         <div className="col-span-2 flex flex-col">
-          <h1 className="text-2xl font-semibold">Nicholas Hansen</h1>
+          <a href="/ ">
+            <h1 className="text-2xl font-semibold">Nicholas Hansen</h1>
+          </a>
         </div>
         <div className="flex gap-6">
           <p>Skills</p>
