@@ -2,18 +2,65 @@
 import Video from "@/public/Forest.mp4";
 import Image from "next/image";
 import Link from "next/link";
+import { off } from "process";
 import { useEffect, useState } from "react";
+import { element } from "three/tsl";
 export default function WelcomeHome() {
-  const container = document.querySelector("#nav_links");
-  function ActiveLink() {
-    const [activeLink, setActiveLink] = useState();
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [click, setClicks] = useState(0);
 
-    useEffect(() => {});
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  function handleClick() {
+    setClicks(click + 1);
   }
+
+  function getOffset(el) {
+    const rect = el.getBoundingClientRect();
+    const number = rect.top + window.scrollY;
+    return number;
+  }
+
+  useEffect(() => {
+    const sections = document.querySelectorAll("#story > h3");
+    const positions = [sections.length];
+    sections.forEach((section) => {
+      const position = getOffset(section);
+      positions.push(position);
+    });
+
+    console.log(positions);
+
+    const elements = document.querySelectorAll("a > button");
+    var offset = 0;
+    elements.forEach((element, i) => {
+      element.classList.remove("selected");
+
+      if (
+        scrollPosition >= positions[i + 1] &&
+        scrollPosition < positions[i + 2]
+      ) {
+        element.classList.add("selected");
+      }
+    });
+
+    console.log(scrollPosition);
+  }, [scrollPosition]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <div className="">
+      <div>
         <video
           className=" mix-blend-exclusion fixed"
           autoPlay={true}
@@ -25,28 +72,29 @@ export default function WelcomeHome() {
         <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
           className="fixed top-28 left-20 flex flex-col w-56 text-white z-30 gap-2"
-          id="nav_links"
+          id="links"
         >
-          <Link href="#Introduction">
+          <a href="#Introduction" onClick={handleClick}>
             <button>Introduction</button>
-          </Link>
-          <Link href="#WhatWentRight">
+          </a>
+          <a href="#WhatWentRight">
             <button>What went right</button>
-          </Link>
-          <Link href="#WhatWentWrong">
+          </a>
+          <a href="#WhatWentWrong">
             <button>What went wrong</button>
-          </Link>
-          <Link href="#SummaryTakeaways">
+          </a>
+          <a href="#SummaryTakeaways">
             <button>Summary & Takeaways</button>
-          </Link>
-          <Link href="#WhatILearned">
+          </a>
+          <a href="#WhatILearned">
             <button>What I learned</button>
-          </Link>
+          </a>
         </div>
         <div
           className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full px-[600px] gap-3 
                 [&_h1]:text-7xl [&_h1]:font-bold [&_h2]:text-4xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
+          id="story"
         >
           <h1>Welcome Home</h1>
           <h2 id="Introduction">Tech Lead's Postmortem</h2>
