@@ -12,7 +12,7 @@ export default function Intro() {
         >
           <source src={Video as string} />
         </video>
-        <div className="text-white  flex flex-col justify-items-center *:self-center absolute top-48 left-0 w-full h-full gap-3">
+        <div className="text-white  flex flex-col justify-items-center *:self-center absolute top-36 left-0 w-full h-full gap-3">
           <p className="font-light text-xl">Game Programmer & Tech Lead</p>
           <p className="font-bold text-5xl">Nicholas Hansen</p>
           <p className="text-lg font-medium text-pretty w-[690px] text-center mb-8">

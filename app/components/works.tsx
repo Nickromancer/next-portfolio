@@ -47,13 +47,19 @@ export default function Works() {
           </div>
           <div className="relative mx-auto w-max flex gap-4">
             <a href="/WelcomeHome">
-
               <button className="text-black bg-white rounded-full w-32 h-12">
                 View More
               </button>
             </a>
+            <button className="text-white bg-[#183e50] rounded-full w-32 h-12">
+              <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
+                Play on Steam
+              </a>
+            </button>
             <button className="text-white bg-orange rounded-full w-32 h-12">
-              Play Now
+              <a href="https://stalker-studios.itch.io/welcome-home">
+                Play on Itch.io
+              </a>
             </button>
           </div>
         </div>
@@ -71,7 +77,7 @@ export default function Works() {
                 player find yourself in an abandoned town. It is now your task
                 to find out what has happened and uncover the mysteries of the
                 previous residents.
-              </h3>{" "}
+              </h3>
               <h2>Role</h2>
               <h3>Tech Artist</h3>
               <h2>Size: 6</h2>
@@ -92,10 +98,12 @@ export default function Works() {
           </div>
           <div className="mx-auto w-max flex gap-4">
             <button className="text-black bg-white rounded-full w-32 h-12">
-              View More
+              <a href="/Untold"> View More</a>
             </button>
             <button className="text-white bg-orange rounded-full w-32 h-12">
-              Play Now
+              <a href="https://skinke3.itch.io/the-untold-story-of-vsdomr">
+                Play Now
+              </a>
             </button>
           </div>
         </div>
@@ -130,7 +138,7 @@ export default function Works() {
           </div>
           <div className="relative mx-auto w-max flex gap-4">
             <button className="text-black bg-white rounded-full w-32 h-12">
-              View More
+              <a href="/Graphics">View More</a>
             </button>
           </div>
         </div>

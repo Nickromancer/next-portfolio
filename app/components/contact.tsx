@@ -3,9 +3,11 @@ import Forms from "@/app/components/forms";
 export default function Contact() {
   return (
     <>
-      <h1 className="font-semibold text-4xl py-3 px-40 bg-orange text-white">Contact</h1>
+      <div className=" bg-white">
+        <h1 className="font-semibold text-4xl py-3 px-40">Contact</h1>
+      </div>
       <div
-        className="pt-2 pb-14  text-white bg-orange relative px-40"
+        className="pt-2 pb-14  text-white bg-black relative px-40"
         id="contact"
       >
         <p className=" text-md font-extralight mb-2">

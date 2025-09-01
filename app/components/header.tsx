@@ -35,11 +35,14 @@ export default function Header() {
             <h1 className="text-2xl font-semibold">Nicholas Hansen</h1>
           </a>
         </div>
-        <div className="flex gap-6">
-          <p>Skills</p>
-          <p>Projects</p>
-          <p>About</p>
-          <p>Resume</p>
+        <div className="flex items-center   gap-6">
+          <a href="/about">About</a>
+          <a href="/Resume.pdf" download="Resume">
+            Resume
+          </a>
+          <button className="text-black bg-white rounded-full w-20 h-8">
+            <a href="#Contact">Contact</a>
+          </button>
         </div>
       </div>
     </>

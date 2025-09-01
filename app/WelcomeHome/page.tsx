@@ -45,6 +45,9 @@ export default function WelcomeHome() {
       ) {
         element.classList.add("selected");
       }
+      if (scrollPosition >= positions[5]) {
+        elements[4].classList.add("selected");
+      }
     });
 
     console.log(scrollPosition);
@@ -91,7 +94,7 @@ export default function WelcomeHome() {
           </a>
         </div>
         <div
-          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full px-[600px] gap-3 
+          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full px-[450px] gap-3 
                 [&_h1]:text-7xl [&_h1]:font-bold [&_h2]:text-4xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
           id="story"
@@ -355,6 +358,44 @@ export default function WelcomeHome() {
             and weaknesses of each specific team, making it easier to steer a
             team to success and avoiding unnecessary bumps along the way.
           </p>
+          <Image
+            className="my-4"
+            src="/Tags.jpg"
+            alt=""
+            width={2000}
+            height={0}
+          />
+          <p>
+            A snapshot out of our journey (It's me on the left corner). It's
+            been a thrilling journey to share, the game I helped develop reached
+            30,000 downloads on Itch.io! Seeing our game, "Welcome Home" make it
+            to the front page of Itch.io among a million other cool games is a
+            moment I’ll never forget. It is bewildering to see people on YouTube
+            experience your game. Still, it is also bittersweet when people
+            encounter flaws and bugs while playing, making you want to pull your
+            teeth out and squash those bugs immediately... This has shaped the
+            way I perceive development in games and how you invest parts of
+            yourself in a media consumed by others, which every developer should
+            be proud of regardless! It's been exciting to learn about the
+            post-production phase of games, especially publishing to Steam and
+            learning the Steam API/Steam workshop. We also attended a student
+            showcase for "Tommorows Awesome Game Showcase" (TAGS), where I meet
+            other passionate developers, exchanged valuable experiences, and
+            enjoyed the aftermath of many weeks of hard labor with other
+            students' games.
+          </p>
+          <div className="pt-2 pb-12 flex gap-4 justify-center w-full">
+            <button className="text-white bg-[#183e50] rounded-full w-32 h-12">
+              <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
+                Play on Steam
+              </a>
+            </button>
+            <button className="text-white bg-orange rounded-full w-32 h-12">
+              <a href="https://stalker-studios.itch.io/welcome-home">
+                Play on Itch.io
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </>
