@@ -411,7 +411,8 @@ export default function Graphics() {
           <p>Light Position:</p>
           <ol className="list-disc [&_li]:font-extralight ml-5 *:my-1">
             <li>
-              Controls the position of the scene's main light source in 3D space
+              Controls the position of the scene&apos;s main light source in 3D
+              space
             </li>
             <li>
               Affects direction of shadows, specular highlights, and shading

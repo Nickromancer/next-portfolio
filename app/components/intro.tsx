@@ -18,7 +18,7 @@ export default function Intro() {
           <p className="text-lg font-medium text-pretty w-[690px] text-center mb-8">
             A Game Developer with a passion for furthering my craft and learning
             new things. I study at the IT-Univeristy of Copenhagen as a Master
-            of Games Technology student. I'm interested in Game Engines,
+            of Games Technology student. I&apos;m interested in Game Engines,
             Graphics & Agile Production in Games
           </p>
           <Skills></Skills>
