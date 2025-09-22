@@ -5,7 +5,9 @@ export default function Works() {
   return (
     <>
       <div className=" bg-white">
-        <h1 className="font-semibold text-4xl py-3 px-40">Highlighted Works</h1>
+        <h1 className="font-semibold text-4xl py-3 px-40 text-black">
+          Highlighted Works
+        </h1>
       </div>
       <div className="*:px-40 *:py-14">
         <div className="bg-[url('../public/WelcomeHome.jpg')] bg-center relative">

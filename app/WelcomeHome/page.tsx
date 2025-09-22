@@ -41,7 +41,7 @@ export default function WelcomeHome() {
 
       if (
         scrollPosition >= positions[i + 1] &&
-        scrollPosition < positions[i + 2]
+        scrollPosition <= positions[i + 2]
       ) {
         element.classList.add("selected");
       }

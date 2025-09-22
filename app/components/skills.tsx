@@ -30,8 +30,8 @@ export default function Skills() {
     <>
       <div className="text-white" id="skills">
         <div className="flex flex-col items-center">
-          <h1 className="text-3xl font-light mx-40">Skills</h1>
-          <hr className="w-28 mx-40" />
+          {/*           <h1 className="text-3xl font-light mx-40">Skills</h1>
+          <hr className="w-28 mx-40" /> */}
         </div>
         <div className="mt-4 grid grid-cols-2 grid-rows-2 gap-4 mx-40">
           <div>

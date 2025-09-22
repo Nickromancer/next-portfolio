@@ -3,7 +3,9 @@ import Card from "./card";
 export default function Projects() {
   return (
     <>
-      <h1 className="font-semibold text-4xl py-3 px-40 bg-white">Other Projects & Games</h1>
+      <h1 className="font-semibold text-4xl py-3 px-40 bg-white text-black">
+        Other Projects & Games
+      </h1>
       <div className="py-16" id="projects">
         <div className="flex flex-wrap gap-14 h-auto px-40">
           <Card
