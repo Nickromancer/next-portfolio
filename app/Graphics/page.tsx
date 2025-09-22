@@ -1,5 +1,4 @@
 "use client";
-// eslint-disable-next-line
 import Video from "@/public/Beach.mp4";
 import Image from "next/image";
 import Link from "next/link";

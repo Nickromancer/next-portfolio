@@ -18,7 +18,7 @@ export default function Untold() {
     setClicks(click + 1);
   }
 
-  function getOffset(el) {
+  function getOffset(el: Element) {
     const rect = el.getBoundingClientRect();
     const number = rect.top + window.scrollY;
     return number;
