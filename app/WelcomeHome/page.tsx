@@ -100,7 +100,7 @@ export default function WelcomeHome() {
           id="story"
         >
           <h1>Welcome Home</h1>
-          <h2 id="Introduction">Tech Lead's Postmortem</h2>
+          <h2 id="Introduction">Tech Lead&apos;s Postmortem</h2>
           <h3>Introduction</h3>
           <hr className="w-full" />
           <p>
@@ -124,7 +124,7 @@ export default function WelcomeHome() {
             <br />
             <br />
             My role consisted primarily of technical decision-making and
-            maintaining tools and processes that enabled the team’s
+            maintaining tools and processes that enabled the team&apos;s
             productivity, allowing the programmers to focus on implementing
             features by having a streamlined workflow cycle. I have encountered
             numerous moments where the frameworks and technical aspects that I
@@ -255,13 +255,14 @@ export default function WelcomeHome() {
           <p>
             While establishing guidelines is crucial for maintaining project
             coherence, the ones implemented were not fully aligned with our
-            team’s actual workflow. For instance, our workflow for versioning
-            the game did not align with the guidelines that I found online. This
-            misalignment arose because the guidelines I found were generally for
-            software management and did not match with a small-scale game
-            development life cycle as ours, this should also have been discussed
-            and considered using input from all team members, highlighting a
-            lack of early collaboration during the planning phase.
+            team&apos;s actual workflow. For instance, our workflow for
+            versioning the game did not align with the guidelines that I found
+            online. This misalignment arose because the guidelines I found were
+            generally for software management and did not match with a
+            small-scale game development life cycle as ours, this should also
+            have been discussed and considered using input from all team
+            members, highlighting a lack of early collaboration during the
+            planning phase.
           </p>
           <h4>Lack of Enforcement on Conventions</h4>
           <p>
@@ -280,7 +281,7 @@ export default function WelcomeHome() {
           <p>
             This escalated slowly throughout the project, causing these
             deviations to accumulate, leading to merge conflicts and a lack of
-            cohesion in the project’s structure. This inconsistency created
+            cohesion in the project&apos;s structure. This inconsistency created
             bottlenecks during integration phases, costing valuable time in the
             later part of the project. When reflecting on the experience, I
             realize that I should voice my concerns more clearly and be brave to
@@ -289,12 +290,12 @@ export default function WelcomeHome() {
           </p>
           <h4>Delayed Integration of Design Team</h4>
           <p>
-            The design team’s involvement in the GitHub workflow was initiated
-            later in the project, which caused significant disruptions in
-            development. Early stages lacked coordination between the design and
-            technical teams, resulting in implications in how to use Git when
-            pushing changes to the project, GitHub when managing branches and
-            avoiding bad branching, and Unity when using the editor and
+            The design team&apos;s involvement in the GitHub workflow was
+            initiated later in the project, which caused significant disruptions
+            in development. Early stages lacked coordination between the design
+            and technical teams, resulting in implications in how to use Git
+            when pushing changes to the project, GitHub when managing branches
+            and avoiding bad branching, and Unity when using the editor and
             resources that the programmers have created. This could be easily
             avoided by getting the designers properly integrated into the
             workflow, perhaps in the way of doing a workshop on how to use these
@@ -303,7 +304,7 @@ export default function WelcomeHome() {
           <h3 id="SummaryTakeaways">Summary & Takeaways</h3>
           <hr className="w-full" />
           <p>
-            As the Tech Lead, my role centered on managing the project’s
+            As the Tech Lead, my role centered on managing the project&apos;s
             technical direction, ensuring streamlined workflows, and enabling
             collaboration between programming and design teams. Key
             accomplishments included setting up an effective production
@@ -318,7 +319,7 @@ export default function WelcomeHome() {
             <br />
             <br />
             This project underscored the critical need for aligning technical
-            practices with the team’s workflows and project scope. The
+            practices with the team&apos;s workflows and project scope. The
             importance of early collaboration and training, particularly for
             integrating team members who were not familiar with Unity and
             GitHub, became evident. Effective enforcement of standards and
@@ -327,7 +328,8 @@ export default function WelcomeHome() {
             between room for fun and staying focused on the tasks at hand. I
             strived to become a good Tech Lead who balances adaptability and
             structure, attempting to ensure that the technical solutions I came
-            up with would support both the team’s needs and the project’s goals.
+            up with would support both the team&apos;s needs and the
+            project&apos;s goals.
           </p>
           <h3 id="WhatILearned">What I learned</h3>
           <hr className="w-full" />
@@ -335,16 +337,16 @@ export default function WelcomeHome() {
             Serving as Tech Lead for this project provided invaluable insights
             into the dynamics of technical leadership within a collaborative
             game development environment. My role started out being unfamiliar
-            to me and some of the resources given to me from the course didn’t
-            give me all the answers I sought. Still, throughout the project I
-            learned that it required balancing technical execution with team
-            coordination, ensuring that workflows supported efficient progress
-            while fostering collaboration between members of the team. Through
-            trying to implement a production pipeline, defining some Unity
-            standards, and trying to enforce GitHub practices, I was able to
-            create a decent development process and maintain a certain level of
-            consistency across the project, not to mention all the valuable
-            insights I’ve gained along the way.
+            to me and some of the resources given to me from the course
+            didn&apos;t give me all the answers I sought. Still, throughout the
+            project I learned that it required balancing technical execution
+            with team coordination, ensuring that workflows supported efficient
+            progress while fostering collaboration between members of the team.
+            Through trying to implement a production pipeline, defining some
+            Unity standards, and trying to enforce GitHub practices, I was able
+            to create a decent development process and maintain a certain level
+            of consistency across the project, not to mention all the valuable
+            insights I&apos;ve gained along the way.
             <br />
             <br />
             This experience also illuminated areas for future growth. I entered
@@ -366,23 +368,24 @@ export default function WelcomeHome() {
             height={0}
           />
           <p>
-            A snapshot out of our journey (It's me on the left corner). It's
-            been a thrilling journey to share, the game I helped develop reached
-            30,000 downloads on Itch.io! Seeing our game, "Welcome Home" make it
-            to the front page of Itch.io among a million other cool games is a
-            moment I’ll never forget. It is bewildering to see people on YouTube
-            experience your game. Still, it is also bittersweet when people
-            encounter flaws and bugs while playing, making you want to pull your
-            teeth out and squash those bugs immediately... This has shaped the
-            way I perceive development in games and how you invest parts of
-            yourself in a media consumed by others, which every developer should
-            be proud of regardless! It's been exciting to learn about the
-            post-production phase of games, especially publishing to Steam and
-            learning the Steam API/Steam workshop. We also attended a student
-            showcase for "Tommorows Awesome Game Showcase" (TAGS), where I meet
+            A snapshot out of our journey (It&apos;s me on the left corner).
+            It&apos;s been a thrilling journey to share, the game I helped
+            develop reached 30,000 downloads on Itch.io! Seeing our game,
+            &quot;Welcome Home&quot; make it to the front page of Itch.io among
+            a million other cool games is a moment I&apos;ll never forget. It is
+            bewildering to see people on YouTube experience your game. Still, it
+            is also bittersweet when people encounter flaws and bugs while
+            playing, making you want to pull your teeth out and squash those
+            bugs immediately... This has shaped the way I perceive development
+            in games and how you invest parts of yourself in a media consumed by
+            others, which every developer should be proud of regardless!
+            It&apos;s been exciting to learn about the post-production phase of
+            games, especially publishing to Steam and learning the Steam
+            API/Steam workshop. We also attended a student showcase for
+            &quot;Tommorows Awesome Game Showcase&quot; (TAGS), where I meet
             other passionate developers, exchanged valuable experiences, and
             enjoyed the aftermath of many weeks of hard labor with other
-            students' games.
+            students&apos; games.
           </p>
           <div className="pt-2 pb-12 flex gap-4 justify-center w-full">
             <button className="text-white bg-[#183e50] rounded-full w-32 h-12">
