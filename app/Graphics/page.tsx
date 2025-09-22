@@ -1,4 +1,5 @@
 "use client";
+// eslint-disable-next-line
 import Video from "@/public/Beach.mp4";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,7 +19,7 @@ export default function Graphics() {
     setClicks(click + 1);
   }
 
-  function getOffset(el) {
+  function getOffset(el: Element) {
     const rect = el.getBoundingClientRect();
     const number = rect.top + window.scrollY;
     return number;
