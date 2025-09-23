@@ -20,6 +20,6 @@ const nextConfig = {
     });
     return config;
   },
+  outputFileTracingIncludes: { "/api/hello": ["./public/*"] },
 };
-
 export default nextConfig;

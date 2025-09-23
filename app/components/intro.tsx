@@ -1,3 +1,4 @@
+"use client";
 import Video from "@/public/Smoke.mp4";
 import Skills from "./skills";
 export default function Intro() {
