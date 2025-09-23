@@ -32,10 +32,12 @@ export default function Header() {
       >
         <div className="col-span-2 flex flex-col">
           <a href="/ ">
-            <h1 className="text-2xl font-semibold">Nicholas Hansen</h1>
+            <h1 className="md:text-2xl font-semibold md:w-fit w-max">
+              Nicholas Hansen
+            </h1>
           </a>
         </div>
-        <div className="flex items-center   gap-6">
+        <div className="md:flex hidden items-center gap-6">
           <a href="/about">About</a>
           <a href="/Resume.pdf" download="Resume">
             Resume

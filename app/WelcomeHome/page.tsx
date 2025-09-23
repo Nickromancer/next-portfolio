@@ -65,16 +65,17 @@ export default function WelcomeHome() {
     <>
       <div>
         <video
-          className=" mix-blend-exclusion fixed"
+          className="mix-blend-exclusion blur-[1px]  h-screen w-screen fixed"
           autoPlay={true}
           loop
           muted
+          style={{ objectFit: "cover" }}
         >
           <source src={Video as string} />
         </video>
         <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
-          className="fixed top-28 left-20 flex flex-col w-56 text-white z-30 gap-2"
+          className="fixed top-28 left-20 md:flex flex-col w-56 text-white z-30 gap-2 hidden"
           id="links"
         >
           <a href="#Introduction" onClick={handleClick}>
@@ -94,8 +95,8 @@ export default function WelcomeHome() {
           </a>
         </div>
         <div
-          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full px-[450px] gap-3 
-                [&_h1]:text-7xl [&_h1]:font-bold [&_h2]:text-4xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
+          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[450px] px-4 gap-3 
+                md:[&_h1]:text-7xl [&_h1]:text-5xl [&_h1]:font-bold md:[&_h2]:text-4xl [&_h2]:text-2xl  [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
           id="story"
         >
@@ -387,7 +388,7 @@ export default function WelcomeHome() {
             enjoyed the aftermath of many weeks of hard labor with other
             students&apos; games.
           </p>
-          <div className="pt-2 pb-12 flex gap-4 justify-center w-full">
+          <div className="pt-2 pb-20 flex gap-4 justify-center w-full">
             <button className="text-white bg-[#183e50] rounded-full w-32 h-12">
               <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
                 Play on Steam

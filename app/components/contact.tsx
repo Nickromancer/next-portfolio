@@ -4,12 +4,12 @@ export default function Contact() {
   return (
     <>
       <div className="bg-white" id="Contact">
-        <h1 className="font-semibold text-4xl py-3 px-40 bg-beige text-black">
+        <h1 className="font-semibold text-4xl py-3 md:px-40 px-4 bg-beige text-black">
           Contact
         </h1>
       </div>
       <div
-        className="pt-2 pb-14 text-black relative px-40 bg-beige"
+        className="pt-2 pb-14 text-black relative md:px-40 px-4 bg-beige"
         id="contact"
       >
         <p className=" text-md font-extralight mb-2 text-black">
