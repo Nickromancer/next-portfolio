@@ -5,17 +5,17 @@ export default function Works() {
   return (
     <>
       <div className=" bg-white">
-        <h1 className="font-semibold text-4xl py-3 px-40 text-black">
+        <h1 className="font-semibold text-4xl py-3 md:px-40 px-4 text-black">
           Highlighted Works
         </h1>
       </div>
-      <div className="*:px-40 *:py-14">
+      <div className="md:*:px-40 md:*:py-14 *:px-4">
         <div className="bg-[url('../public/WelcomeHome.jpg')] bg-center relative">
           <div className="absolute backdrop-blur-[1px] backdrop-brightness-[60%] w-full h-full left-0 top-0"></div>
           <div className="relative flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 
-        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 *:w-96"
+        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 md:*:w-96 *:w-fit pt-4"
             >
               <p>Unity | PC </p>
               <h1>Welcome Home</h1>
@@ -37,7 +37,7 @@ export default function Works() {
               <h2>Tools & Software</h2>
               <h3>Github / Kanban / Blender / FMOD</h3>
             </div>
-            <div className="text-white">
+            <div className="text-white md:block hidden">
               <Image
                 src="/WelcomeHome.gif"
                 width={500}
@@ -47,18 +47,16 @@ export default function Works() {
               ></Image>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex gap-4">
-            <a href="/WelcomeHome">
-              <button className="text-black bg-white rounded-full w-32 h-12">
-                View More
-              </button>
-            </a>
-            <button className="text-white bg-[#183e50] rounded-full w-32 h-12">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
+            <button className="text-black bg-white rounded-full">
+              <a href="/WelcomeHome">View More</a>
+            </button>
+            <button className="text-white bg-[#183e50] rounded-full">
               <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
                 Play on Steam
               </a>
             </button>
-            <button className="text-white bg-orange rounded-full w-32 h-12">
+            <button className="text-white bg-orange rounded-full">
               <a href="https://stalker-studios.itch.io/welcome-home">
                 Play on Itch.io
               </a>
@@ -70,7 +68,7 @@ export default function Works() {
           <div className="flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 
-        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 *:w-96"
+        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 md:*:w-96 *:w-fit pt-4"
             >
               <p>Unreal | PC </p>
               <h1>The Untold Story of Vísdómír</h1>
@@ -94,11 +92,11 @@ export default function Works() {
                 Github / Kanban / Blender / FMOD / Substance Painter / Photoshop
               </h3>
             </div>
-            <div>
+            <div className="md:block hidden">
               <Model></Model>
             </div>
           </div>
-          <div className="mx-auto w-max flex gap-4">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
             <button className="text-black bg-white rounded-full w-32 h-12">
               <a href="/Untold"> View More</a>
             </button>
@@ -115,7 +113,7 @@ export default function Works() {
           <div className="relative flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 
-        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 *:w-96"
+        [&_h1]:text-4xl [&_h2]:text-xl *:font-bold [&_h3]:font-light *:pb-2 md:*:w-96 *:w-fit pt-4"
             >
               <p>Solo Project | Graphics </p>
               <h1>Advanced Real-Time Rendering in OpenGL</h1>
@@ -134,11 +132,11 @@ export default function Works() {
               <h2>Tools & Software</h2>
               <h3>Github / CMake / RenderDoc / Blender</h3>
             </div>
-            <div>
+            <div className="md:block hidden">
               <Graphics></Graphics>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex gap-4">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
             <button className="text-black bg-white rounded-full w-32 h-12">
               <a href="/Graphics">View More</a>
             </button>

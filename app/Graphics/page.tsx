@@ -65,16 +65,17 @@ export default function Graphics() {
     <>
       <div>
         <video
-          className=" mix-blend-exclusion fixed"
+          className=" mix-blend-exclusion blur-[1px] h-screen w-screen fixed"
           autoPlay={true}
           loop
           muted
+          style={{ objectFit: "cover" }}
         >
           <source src={Video as string} />
         </video>
         <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
-          className="fixed top-28 left-20 flex flex-col w-64 text-white z-30 gap-2"
+          className="fixed top-28 left-20 md:flex flex-col w-56 text-white z-30 gap-2 hidden"
           id="links"
         >
           <a href="#Motivation" onClick={handleClick}>
@@ -94,8 +95,8 @@ export default function Graphics() {
           </a>
         </div>
         <div
-          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full px-[450px] gap-3 
-                [&_h1]:text-7xl [&_h1]:font-bold [&_h2]:text-4xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
+          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[450px] px-4 gap-3 
+                md:[&_h1]:text-7xl [&_h1]:text-5xl [&_h1]:font-bold md:[&_h2]:text-4xl [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
           id="story"
         >

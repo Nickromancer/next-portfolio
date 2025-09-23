@@ -3,11 +3,11 @@ import Card from "./card";
 export default function Projects() {
   return (
     <>
-      <h1 className="font-semibold text-4xl py-3 px-40 bg-white text-black">
+      <h1 className="bg-white font-semibold text-4xl py-3 md:px-40 px-4 text-black">
         Other Projects & Games
       </h1>
       <div className="py-16" id="projects">
-        <div className="flex flex-wrap gap-14 h-auto px-40">
+        <div className="flex md:flex-wrap md:flex-row flex-col gap-14 h-auto md:px-40 px-8 ">
           <Card
             path="Rick.png"
             title="Rick Rush: Rhythm Game"
