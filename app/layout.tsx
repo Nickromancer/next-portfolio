@@ -29,14 +29,14 @@ export default function RootLayout({
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>"
         />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} /* suppressHydrationWarning={true} */>
         <SpeedInsights />
         <Analytics />
-        <div className="sm:flex  md:flex-col">
-          <div className="bg-orange top-0 fixed w-screen z-10">
+        <div className="sm:flex md:flex">
+          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 px-40 py-3">
             <Header></Header>
           </div>
-          <div className="md:mx-20 md:pt-48 pt-64">{children}</div>
+          <div className="">{children}</div>
         </div>
       </body>
     </html>

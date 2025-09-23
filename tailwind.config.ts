@@ -21,7 +21,9 @@ const config: Config = {
       dropShadow: {
         profile: "16px 16px 2px rgba(0, 0, 0, 0.5)",
       },
-      backgroundImage: {},
+      backgroundImage: {
+        sea: "url('../public/spiaggia_di_mondello_4k.jpg')",
+      },
     },
   },
   plugins: [],

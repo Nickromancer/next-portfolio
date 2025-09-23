@@ -16,7 +16,7 @@ export default function Card(props: {
     <>
       <Link
         href={props.link}
-        className="group relative rounded-xl overflow-hidden my-auto mx-auto"
+        className="group relative rounded-xl overflow-hidden"
       >
         <Image
           src={Picture}

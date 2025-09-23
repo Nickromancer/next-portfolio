@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   env: {
     NEXT_PUBLIC_PUBLIC_KEY: process.env.NEXT_PUBLIC_PUBLIC_KEY,
@@ -8,16 +9,17 @@ const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
     config.module.rules.push({
-      test: /\.pdf$/,
+      test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|rtf|doc|pdf|obj|mtl)$/,
       use: {
         loader: "file-loader",
         options: {
-          name: "[path][name].[ext]",
+          name: "static/media/[name].[hash].[ext]",
+          publicPath: "/_next/",
         },
       },
     });
     return config;
   },
+  outputFileTracingIncludes: { "/api/hello": ["./public/*"] },
 };
-
 export default nextConfig;

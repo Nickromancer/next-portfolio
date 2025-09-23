@@ -3,19 +3,11 @@ import Card from "./card";
 export default function Projects() {
   return (
     <>
+      <h1 className="font-semibold text-4xl py-3 px-40 bg-white text-black">
+        Other Projects & Games
+      </h1>
       <div className="py-16" id="projects">
-        <h1 className="md:text-6xl text-4xl mb-12 text-white font-bold text-center">
-          Projects & Games
-        </h1>
-        <div className="flex flex-wrap gap-16 h-auto justify-center">
-          <Card
-            path="WelcomeHome.gif"
-            title="Welcome Home"
-            description="As part of my MSc course, my team and I developed a PS1-styled
-                horror game inspired by the movie Midsommar. I was the tech lead, using agile methodology and kanban to organize our project and goals, deploying the game with over 30k downloads on itch.io!"
-            tags={["Horror", "Unity", "Agile", "Kanban"]}
-            link="https://stalker-studios.itch.io/welcome-home"
-          ></Card>
+        <div className="flex flex-wrap gap-14 h-auto px-40">
           <Card
             path="Rick.png"
             title="Rick Rush: Rhythm Game"

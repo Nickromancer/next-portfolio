@@ -35,7 +35,7 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
       <label></label>
       <input
-        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white focus:bg-[#0c0f2b] ease-in-out duration-100"
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-orange text-black focus:bg-orange focus:outline-0 placeholder:text-black ease-in-out duration-100"
         type="text"
         name="user_name"
         placeholder="Name"
@@ -43,7 +43,7 @@ export const ContactUs = () => {
       />
       <label></label>
       <input
-        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white focus:bg-[#0c0f2b] ease-in-out duration-100  "
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-orange text-black focus:bg-orange focus:outline-0 placeholder:text-black ease-in-out duration-100  "
         type="email"
         name="user_email"
         placeholder="Mail"
@@ -51,13 +51,13 @@ export const ContactUs = () => {
       />
       <label></label>
       <textarea
-        className="p-3 rounded-sm bg-transparent border-solid border-2 border-white text-white resize-none focus:bg-[#0c0f2b] ease-in-out duration-100 h-44 "
+        className="p-3 rounded-sm bg-transparent border-solid border-2 border-orange text-black resize-none focus:bg-orange focus:outline-0 placeholder:text-black ease-in-out duration-100 h-44 "
         name="message"
         placeholder="Message"
         required
       />
       <button
-        className=" bg-beige hover:bg-white focus:bg-white ease-in-out duration-100 text-black font-semibold rounded-sm text-lg mt-2
+        className=" bg-orange hover:bg-orange focus:bg-orange ease-in-out duration-100 text-black font-semibold rounded-sm text-lg mt-2
          h-10 w-40"
         type="submit"
         value="Send"

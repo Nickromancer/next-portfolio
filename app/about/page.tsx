@@ -7,7 +7,7 @@ import Profile3 from "@/public/FoodNick.jpg";
 export default function About() {
   return (
     <>
-      <div className="text-white py-16 flex gap-16" id="about">
+      <div className="text-white pt-28 flex gap-16 px-40" id="about">
         <div className="md:grid  grid-cols-2  [&>*]:rounded-xl [&>*]:border-solid gap-4 [&>*]:border-2 [&>*]:border-white h-0 hidden  ">
           <Image className="" src={Profile1} alt="" width={660}></Image>
           <Image className="" src={Profile3} alt="" width={660}></Image>

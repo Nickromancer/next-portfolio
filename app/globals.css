@@ -31,3 +31,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #ecceae;
 }
+
+.selected {
+  text-decoration: underline;
+  font-weight: 700;
+}
