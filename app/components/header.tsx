@@ -37,12 +37,12 @@ export default function Header() {
             </h1>
           </a>
         </div>
-        <div className="md:flex hidden items-center gap-6">
+        <div className="flex items-center gap-6">
           <a href="/about">About</a>
           <a href="/Resume.pdf" download="Resume">
             Resume
           </a>
-          <button className="text-black bg-white rounded-full w-20 h-8">
+          <button className="text-black bg-white rounded-full w-20 h-8 md:block hidden">
             <a href="#Contact">Contact</a>
           </button>
         </div>
