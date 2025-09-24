@@ -10,6 +10,77 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes myAnimation {
+  from {
+    background-color: #131842;
+  }
+  to {
+    background-color: #141c67;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#about {
+  background: 131842;
+  background-size: 150% 150%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+.carousel {
+  width: 79vw;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 30s infinite linear;
+  padding-right: 1em;
+}
+
+.card {
+  flex: 0 0 5em;
+  background: blue;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+  object-fit: fill;
+  height: 150px;
+  width: 300px;
+}
+
+.transparentEdge {
+  height: 50em;
+}
+
+@keyframes spin {
+  from {
+    translate: 0%;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

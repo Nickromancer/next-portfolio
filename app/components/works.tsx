@@ -24,7 +24,7 @@ export default function Works() {
                 protagonist is in a cult, and they have to discover hidden
                 secrets, find the truth behind the welcoming façade, and in the
                 end, escape the cult.
-              </h3>{" "}
+              </h3>
               <h2>Role</h2>
               <h3>Tech Lead</h3>
               <h2>Size: 6</h2>
@@ -47,20 +47,22 @@ export default function Works() {
               ></Image>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-24 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
-            <button className="text-black bg-white rounded-full">
-              <a href="/WelcomeHome">View More</a>
-            </button>
-            <button className="text-white bg-[#183e50] rounded-full">
-              <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 [&_button]:md:*:w-32 [&_button]:md:*:h-12  [&_button]:*:w-24 [&_button]:*:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
+            <a href="/WelcomeHome">
+              <button className="text-black bg-white rounded-full ">
+                View More
+              </button>
+            </a>
+            <a href="https://store.steampowered.com/app/3434440/Welcome_Home/">
+              <button className="text-white bg-[#183e50] rounded-full ">
                 Play on Steam
-              </a>
-            </button>
-            <button className="text-white bg-orange rounded-full">
-              <a href="https://stalker-studios.itch.io/welcome-home">
+              </button>
+            </a>
+            <a href="https://stalker-studios.itch.io/welcome-home">
+              <button className="text-white bg-orange rounded-full ">
                 Play on Itch.io
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -96,15 +98,17 @@ export default function Works() {
               <Model></Model>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
-            <button className="text-black bg-white rounded-full w-32 h-12">
-              <a href="/Untold"> View More</a>
-            </button>
-            <button className="text-white bg-orange rounded-full w-32 h-12">
-              <a href="https://skinke3.itch.io/the-untold-story-of-vsdomr">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 [&_button]:md:*:w-32 [&_button]:md:*:h-12  [&_button]:*:w-28 [&_button]:*:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
+            <a href="/Untold">
+              <button className="text-black bg-white rounded-full w-32 h-12">
+                View More
+              </button>
+            </a>
+            <a href="https://skinke3.itch.io/the-untold-story-of-vsdomr">
+              <button className="text-white bg-orange rounded-full w-32 h-12">
                 Play Now
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -136,10 +140,12 @@ export default function Works() {
               <Graphics></Graphics>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
-            <button className="text-black bg-white rounded-full w-32 h-12">
-              <a href="/Graphics">View More</a>
-            </button>
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 [&_button]:md:*:w-32 [&_button]:md:*:h-12  [&_button]:*:w-28 [&_button]:*:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
+            <a href="/Graphics">
+              <button className="text-black bg-white rounded-full w-32 h-12">
+                View More
+              </button>
+            </a>
           </div>
         </div>
       </div>

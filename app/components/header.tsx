@@ -42,9 +42,11 @@ export default function Header() {
           <a href="/Resume.pdf" download="Resume">
             Resume
           </a>
-          <button className="text-black bg-white rounded-full w-20 h-8 md:block hidden">
-            <a href="#Contact">Contact</a>
-          </button>
+          <a href="#Contact">
+            <button className="text-black bg-white rounded-full w-20 h-8 md:block hidden">
+              Contact
+            </button>
+          </a>
         </div>
       </div>
     </>
