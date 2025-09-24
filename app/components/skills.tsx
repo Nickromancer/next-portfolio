@@ -36,7 +36,7 @@ export default function Skills() {
         <div className="md:mt-4 grid grid-cols-2 grid-rows-2 md:gap-4 gap-4 md:mx-40 mx-4">
           <div>
             <h1 className="text-md md:mt-4  mb-2">Frontend</h1>
-            <div className="text-black rounded-md flex flex-wrap md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="text-black rounded-md flex flex-wrap md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[10px] md:[&_p]:text-[14px]">
               <div>
                 <IoLogoHtml5 className="size-6"></IoLogoHtml5>
                 <p>HTML</p>
@@ -75,7 +75,7 @@ export default function Skills() {
             <h1 className="text-md md:mt-4 justify-end mb-2 text-end ">
               Backend
             </h1>
-            <div className="text-black rounded-md flex flex-wrap justify-end md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="text-black rounded-md flex flex-wrap justify-end md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[10px] md:[&_p]:text-[14px]">
               <div>
                 <FaNodeJs className="size-6"></FaNodeJs>
                 <p>Node.js</p>
@@ -92,7 +92,7 @@ export default function Skills() {
           </div>
           <div>
             <h1 className="text-md md:mt-4  mb-2">Languages</h1>
-            <div className="text-black rounded-md flex flex-wrap md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]  ">
+            <div className="text-black rounded-md flex flex-wrap md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[10px] md:[&_p]:text-[14px]  ">
               <div>
                 <FaJava className="size-6"></FaJava>
                 <p>Java</p>
@@ -125,7 +125,7 @@ export default function Skills() {
           </div>
           <div>
             <h1 className="text-md md:mt-4 mb-2 text-end">Tools</h1>
-            <div className="text-black rounded-md flex flex-wrap justify-end md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[13px]">
+            <div className="text-black rounded-md flex flex-wrap justify-end md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[10px] md:[&_p]:text-[14px]">
               <div>
                 <FaGitAlt className="size-6"></FaGitAlt>
                 <p>Git</p>

@@ -47,7 +47,7 @@ export default function Works() {
               ></Image>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-24 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
             <button className="text-black bg-white rounded-full">
               <a href="/WelcomeHome">View More</a>
             </button>
@@ -96,7 +96,7 @@ export default function Works() {
               <Model></Model>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
             <button className="text-black bg-white rounded-full w-32 h-12">
               <a href="/Untold"> View More</a>
             </button>
@@ -136,7 +136,7 @@ export default function Works() {
               <Graphics></Graphics>
             </div>
           </div>
-          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-sm">
+          <div className="relative mx-auto w-max flex md:gap-4 gap-4 md:*:w-32 md:*:h-12  *:w-28 *:h-10 md:py-0 py-4 md:[&_a]:text-base [&_a]:text-xs">
             <button className="text-black bg-white rounded-full w-32 h-12">
               <a href="/Graphics">View More</a>
             </button>
