@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Avatar(props: { collapsed: boolean }) {
   return (
     <>
-      <div className="bg-white rounded-full overflow-auto border-solid border-2 border-orange hidden md:inline-block">
+      <div className="bg-white rounded-full overflow-auto border-solid border-2 border-orange sm:hidden block">
         <Link href={"/"}></Link>
         <Image
           src={Profile}
