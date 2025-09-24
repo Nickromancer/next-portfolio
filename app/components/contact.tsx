@@ -19,7 +19,7 @@ export default function Contact() {
         <Forms></Forms>
       </div>
       <div className="text-black bg-orange w-full flex justify-center">
-        <p className="py-2">
+        <p className="py-2 px-4 text-sm text-center">
           This website is made with Next.js and maintained by Nicholas Hansen!
         </p>
       </div>
