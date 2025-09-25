@@ -6,6 +6,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [scrollY, setScrollY] = useState(0);
@@ -42,11 +43,11 @@ export default function Header() {
           <a href="/Resume.pdf" download="Resume">
             Resume
           </a>
-          <a href="#Contact">
+          <Link href={"/#Contact"}>
             <button className="text-black bg-white rounded-full w-20 h-8 md:block hidden">
               Contact
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </>

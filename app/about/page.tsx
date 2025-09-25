@@ -3,7 +3,6 @@ import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
 
 export default function About() {
   return (
@@ -36,8 +35,8 @@ export default function About() {
                 <FaInstagram className="size-10 hover:text-orange duration-100 ease-in-out" />
               </a>
             </div>
-            <p className="text-sm md:w-5/6 w-full">
-              I&apos;m a 23-year-old currently studying for a MSc in Games
+            <p className="text-sm md:w-4/6 w-full">
+              I&apos;m a 24-year-old currently studying for a MSc in Games
               Technology at the IT-University of Copenhagen. When I&apos;m not
               hitting the books at my study, you can find me helping others as a
               Teaching Assistant in web development or working as a barista in
@@ -47,7 +46,7 @@ export default function About() {
               improves performance by doing data operations directly where the
               data resides. 💻📅⚡
               <br /> <br />
-              As a Software Developer, I&apos;ve &apos;developed&apos;{" "}
+              As a Software Developer, I&apos;ve &apos;developed&apos;
               <em>(pun intended) </em>
               strong communication and social skills which have benefitted me
               tremoundelsy in projects with developers and when communicating
@@ -56,6 +55,11 @@ export default function About() {
               drive up my enthusiasm and intrinsic motivation. I thrive in
               teamwork where I can exercise a balance of optimism and critical
               thinking while learning from my coworkers. 🧑‍🤝‍🧑💭🧑‍💻
+              <br />
+              <br />I am a big of fast paced games where the stakes are high and
+              overcoming challenges reward the player. I can also enjoy game
+              worlds that are puzzling, leaving it to you to decipher and
+              understand the underlying story hidden inside. 🎮🔎
             </p>
           </div>
           <div className="[&>*]:rounded-xl [&>*]:border-solid gap-4 [&>*]:border-2 [&>*]:border-white md:block hidden">
@@ -84,9 +88,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="pt-4 flex flex-col items-center">
+        <div className="pt-4 flex flex-col items-center w-screen">
           <h1 className="md:px-40 px-4 pb-8 text-3xl">Games I like to play</h1>
-          <div className="carousel md:mx-40 mx-0 relative w-screen pb-4">
+          <div className="carousel md:mx-40 mx-0 relative w-5/6  pb-4">
             <div className="group2">
               <Image
                 className="card"
@@ -190,7 +194,7 @@ export default function About() {
                 height={5}
               ></Image>
             </div>
-            <div className="absolute flex justify-between w-[100%] md:*:w-32">
+            <div className="absolute flex justify-between w-[100%] *:w-32 ">
               <p className="h-96 bg-gradient-to-r from-black to-transparent"></p>
               <p className="h-96 bg-gradient-to-l from-black to-transparent"></p>
             </div>
