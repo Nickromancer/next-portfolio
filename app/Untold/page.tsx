@@ -39,14 +39,11 @@ export default function Untold() {
     elements.forEach((element, i) => {
       element.classList.remove("selected");
 
-      if (
-        scrollPosition >= positions[i + 1] &&
-        scrollPosition < positions[i + 2]
-      ) {
+      if (scrollPosition >= positions[i] && scrollPosition < positions[i + 1]) {
         element.classList.add("selected");
       }
       if (scrollPosition >= positions[5]) {
-        elements[4].classList.add("selected");
+        elements[5].classList.add("selected");
       }
     });
 
@@ -75,7 +72,7 @@ export default function Untold() {
         </video>
         <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
-          className="fixed top-28 left-20 md:flex flex-col w-56 text-white z-30 gap-2 hidden"
+          className="fixed top-28 left-20 md:flex flex-col w-64 text-white z-30 gap-2 hidden"
           id="links"
         >
           <a href="#Introduction" onClick={handleClick}>

@@ -39,14 +39,11 @@ export default function WelcomeHome() {
     elements.forEach((element, i) => {
       element.classList.remove("selected");
 
-      if (
-        scrollPosition >= positions[i + 1] &&
-        scrollPosition <= positions[i + 2]
-      ) {
+      if (scrollPosition >= positions[i] && scrollPosition < positions[i + 1]) {
         element.classList.add("selected");
       }
       if (scrollPosition >= positions[5]) {
-        elements[4].classList.add("selected");
+        elements[5].classList.add("selected");
       }
     });
 

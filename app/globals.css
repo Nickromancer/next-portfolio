@@ -38,7 +38,6 @@ html {
 }
 
 .carousel {
-  width: 79vw;
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -49,6 +48,12 @@ html {
 }
 
 .group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,10 +71,6 @@ html {
   object-fit: fill;
   height: 150px;
   width: 300px;
-}
-
-.transparentEdge {
-  height: 50em;
 }
 
 @keyframes spin {

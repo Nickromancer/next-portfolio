@@ -87,7 +87,7 @@ export default function About() {
         <div className="pt-4 flex flex-col items-center">
           <h1 className="md:px-40 px-4 pb-8 text-3xl">Games I like to play</h1>
           <div className="carousel md:mx-40 mx-0 relative w-screen pb-4">
-            <div className="group">
+            <div className="group2">
               <Image
                 className="card"
                 src={"/Silksong.jpg"}
@@ -139,7 +139,7 @@ export default function About() {
               ></Image>
             </div>
 
-            <div aria-hidden className="group">
+            <div aria-hidden className="group2">
               <Image
                 className="card"
                 src={"/Silksong.jpg"}
