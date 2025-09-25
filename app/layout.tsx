@@ -28,7 +28,7 @@ export default function RootLayout({
         <SpeedInsights />
         <Analytics />
         <div className="sm:flex md:flex">
-          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 md:px-40 px-0 py-3 md:block flex justify-center">
+          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 md:px-40 px-4 py-3 md:block flex justify-center">
             <Header></Header>
           </div>
           <div className="">{children}</div>

@@ -29,11 +29,7 @@ export default function Skills() {
   return (
     <>
       <div className="text-white" id="skills">
-        <div className="flex flex-col items-center">
-          {/*           <h1 className="text-3xl font-light mx-40">Skills</h1>
-          <hr className="w-28 mx-40" /> */}
-        </div>
-        <div className="md:mt-4 grid grid-cols-2 grid-rows-2 md:gap-4 gap-4 md:mx-40 mx-4">
+        <div className="md:mt-4 grid grid-cols-2 grid-rows-2 md:gap-4 gap-4 md:mx-40 mx-4 ">
           <div>
             <h1 className="text-md md:mt-4  mb-2">Frontend</h1>
             <div className="text-black rounded-md flex flex-wrap md:gap-4 gap-1 *:flex *:p-1 *:px-2 *:items-center *:bg-white *:rounded-md *:gap-2 [&_p]:text-[10px] md:[&_p]:text-[14px]">

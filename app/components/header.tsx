@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <>
       <div
-        className={`text-white flex place-content-between gap-16 ease-in-out duration-300`}
+        className={`text-white flex place-content-between md:gap-16 gap-8 ease-in-out duration-300`}
       >
         <div className="col-span-2 flex flex-col">
           <a href="/ ">
@@ -38,8 +38,11 @@ export default function Header() {
             </h1>
           </a>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center md:gap-6 gap-3">
           <a href="/about">About</a>
+          <a href="/CV.pdf" download="CV">
+            CV
+          </a>
           <a href="/Resume.pdf" download="Resume">
             Resume
           </a>
