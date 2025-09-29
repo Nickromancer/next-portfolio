@@ -6,6 +6,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [scrollY, setScrollY] = useState(0);
@@ -28,7 +29,7 @@ export default function Header() {
   return (
     <>
       <div
-        className={`text-white flex place-content-between gap-16 ease-in-out duration-300`}
+        className={`text-white flex place-content-between md:gap-16 gap-8 ease-in-out duration-300`}
       >
         <div className="col-span-2 flex flex-col">
           <a href="/ ">
@@ -37,16 +38,19 @@ export default function Header() {
             </h1>
           </a>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center md:gap-6 gap-3">
           <a href="/about">About</a>
+          <a href="/CV.pdf" download="CV">
+            CV
+          </a>
           <a href="/Resume.pdf" download="Resume">
             Resume
           </a>
-          <a href="#Contact">
+          <Link href={"/#Contact"}>
             <button className="text-black bg-white rounded-full w-20 h-8 md:block hidden">
               Contact
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </>

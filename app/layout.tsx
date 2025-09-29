@@ -23,17 +23,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="icon"
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>"
-        />
-      </head>
+      <head></head>
       <body className={inter.className} /* suppressHydrationWarning={true} */>
         <SpeedInsights />
         <Analytics />
         <div className="sm:flex md:flex">
-          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 md:px-40 px-0 py-3 md:block flex justify-center">
+          <div className="bg-orange/80 backdrop-blur-sm top-0 fixed w-screen z-10 md:px-40 px-4 py-3 md:block flex justify-center">
             <Header></Header>
           </div>
           <div className="">{children}</div>

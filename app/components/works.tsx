@@ -27,7 +27,7 @@ export default function Works() {
               </h3>
               <h2>Role</h2>
               <h3>Tech Lead</h3>
-              <h2>Size: 6</h2>
+              <h2>Project Size: 6</h2>
               <h3>
                 Producer / Tech Lead / Gameplay Programmer / Programmer / Design
                 Lead / UX Lead
@@ -82,7 +82,7 @@ export default function Works() {
               </h3>
               <h2>Role</h2>
               <h3>Tech Artist</h3>
-              <h2>Size: 6</h2>
+              <h2>Project Size: 6</h2>
               <h3>
                 Producer / Creative Director / Tech Artist / Narrative Designer
                 / Programmer / Programmer
@@ -113,7 +113,7 @@ export default function Works() {
         </div>
 
         <div className="bg-sea bg-center relative ">
-          <div className="absolute backdrop-blur-[2px] backdrop-brightness-[60%] w-full h-full left-0 top-0"></div>
+          <div className="absolute backdrop-blur-[6px] backdrop-brightness-[40%] backdrop-saturate-50 w-full h-full left-0 top-0"></div>
           <div className="relative flex justify-between items-center">
             <div
               className=" text-white [&_p]:text-gray-400 

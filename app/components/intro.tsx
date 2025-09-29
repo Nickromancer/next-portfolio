@@ -7,7 +7,7 @@ export default function Intro() {
     <>
       <div className="bg-black/50">
         <video
-          className="mix-blend-exclusion blur-[1px] relative h-screen w-screen "
+          className="mix-blend-exclusion blur-[15px] backdrop-saturate-50 relative h-screen w-screen "
           autoPlay={true}
           loop
           muted

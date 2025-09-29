@@ -62,7 +62,7 @@ export default function Untold() {
     <>
       <div>
         <video
-          className=" mix-blend-exclusion blur-[1px]  h-screen w-screen fixed"
+          className=" mix-blend-exclusion  h-screen w-screen fixed"
           autoPlay={true}
           loop
           muted
@@ -70,7 +70,7 @@ export default function Untold() {
         >
           <source src={Video as string} />
         </video>
-        <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
+        <div className="backdrop-blur-[5px] backdrop-brightness-[20%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
           className="fixed top-28 left-20 md:flex flex-col w-64 text-white z-30 gap-2 hidden"
           id="links"
@@ -92,7 +92,7 @@ export default function Untold() {
           </a>
         </div>
         <div
-          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[450px] px-4 gap-3 
+          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[25%] px-4 gap-3 
                 md:[&_h1]:text-7xl [&_h1]:text-5xl [&_h1]:font-bold md:[&_h2]:text-4xl [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
           id="story"
@@ -166,7 +166,7 @@ export default function Untold() {
             mystery.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_1.png"
             alt=""
             width={2000}
@@ -196,7 +196,7 @@ export default function Untold() {
             to our game that I could meticulously design and contribute with.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_2.png"
             alt=""
             width={2000}
@@ -274,7 +274,7 @@ export default function Untold() {
             upon myself
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_3.png"
             alt=""
             width={2000}
@@ -293,7 +293,7 @@ export default function Untold() {
             director approve, leading to the modeling phase.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_4.png"
             alt=""
             width={2000}
@@ -307,7 +307,7 @@ export default function Untold() {
             vertexes to ensure an efficient but still visually pleasing design.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_5.png"
             alt=""
             width={2000}
@@ -324,7 +324,7 @@ export default function Untold() {
             This process would become smoother further into the project.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_6.png"
             alt=""
             width={2000}
@@ -355,7 +355,7 @@ export default function Untold() {
             to have the same finish as what I intended.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Untold_7.png"
             alt=""
             width={2000}

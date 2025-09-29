@@ -70,7 +70,7 @@ export default function WelcomeHome() {
         >
           <source src={Video as string} />
         </video>
-        <div className="backdrop-blur-[2px] backdrop-brightness-[40%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
+        <div className="backdrop-blur-[4px] backdrop-brightness-[20%] backdrop-hue-rotate-15 w-full h-full left-0 top-0 fixed"></div>
         <div
           className="fixed top-28 left-20 md:flex flex-col w-56 text-white z-30 gap-2 hidden"
           id="links"
@@ -92,7 +92,7 @@ export default function WelcomeHome() {
           </a>
         </div>
         <div
-          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[450px] px-4 gap-3 
+          className="text-white  flex flex-col *:self-start absolute top-28 left-0 w-full h-full md:px-[25%] px-4 gap-3 
                 md:[&_h1]:text-7xl [&_h1]:text-5xl [&_h1]:font-bold md:[&_h2]:text-4xl [&_h2]:text-2xl  [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:font-normal [&_p]:font-extralight [&_h4]:text-xl [&_h4]:font-lights
   [&_h3]:mt-[-60px] [&_h3]:pt-[60px]"
           id="story"
@@ -141,7 +141,7 @@ export default function WelcomeHome() {
             features and bugs that needed to be dealt with.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/WelcomeHome_1.png"
             alt=""
             width={2000}
@@ -233,7 +233,7 @@ export default function WelcomeHome() {
             version of our game for testing and feedback purposes.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/WelcomeHome_2.png"
             alt=""
             width={2000}
@@ -270,7 +270,7 @@ export default function WelcomeHome() {
             such as scripts and scene layouts in Unity.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/WelcomeHome_3.png"
             alt=""
             width={2000}
@@ -359,7 +359,7 @@ export default function WelcomeHome() {
             team to success and avoiding unnecessary bumps along the way.
           </p>
           <Image
-            className="my-4"
+            className="my-4 mx-auto md:px-[20%]"
             src="/Tags.jpg"
             alt=""
             width={2000}
