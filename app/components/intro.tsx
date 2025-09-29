@@ -21,7 +21,7 @@ export default function Intro() {
           </p>
           <p className="font-bold md:text-5xl text-4xl">Nicholas Hansen</p>
           <Avatar collapsed={false}></Avatar>
-          <p className="md:text-lg font-medium text-pretty md:w-[690px] w-fit text-center mb-8">
+          <p className="md:text-lg font-medium text-pretty md:w-[690px] w-fit text-center">
             A Game Developer with a passion for furthering my craft and learning
             new things. I study at the IT-Univeristy of Copenhagen as a Master
             of Games Technology student. I&apos;m interested in Game Engines,
